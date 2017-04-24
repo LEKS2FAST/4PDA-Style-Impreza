@@ -1,7 +1,8 @@
-﻿/* Forum */
+@-moz-document domain("4pda.ru") {
+/* Forum */
 body {
     background: transparent !important;
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339493/9f76a89c-290b-11e7-8beb-98b5c910a8b5.jpg') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/wall.jpg') !important;
     background-attachment: fixed !important;
 	background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -21,7 +22,7 @@ body {
     background-color: transparent;
 }
 #logostrip img {
-	background: url('https://cloud.githubusercontent.com/assets/27365640/25339490/9f6719fe-290b-11e7-944a-64dc984596f4.png') !important;
+	background: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/logo.png') !important;
 	height: 76px !important;
 	padding-right: 210px !important;
 	width: 0 !important;
@@ -343,7 +344,7 @@ ul.tbl.head {
     border: 1px solid #d5d18a !important;
 }
 .usercp_menu, .usercp_menu_out {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339491/9f672598-290b-11e7-97bf-ffd55228f88a.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/ucp%20menu.png') !important;
     color: #fefefe !important;
     border: 0px solid #e91e63 !important;
 }
@@ -489,10 +490,10 @@ td[id^="ph-"] {
     border-radius: 4px !important;
 }
 .post-block.quote > .block-title {
-	background: url('https://cloud.githubusercontent.com/assets/27365640/25339494/9f7e8e04-290b-11e7-8136-9d3107b76a1b.png') no-repeat right !important;
+	background: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/Quotes.png') no-repeat right !important;
 }
 .post-block.code > .block-title {
-	background: url('https://cloud.githubusercontent.com/assets/27365640/25339496/9fa584fa-290b-11e7-8e39-14bc2f06e67a.png') no-repeat right !important;
+	background: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/code.png') no-repeat right !important;
 }
 .post-block.spoil.close {
     background: #183797 !important;
@@ -523,7 +524,7 @@ td[id^="ph-"] {
     background: rgba(0, 0, 0, 0.25) !important
 }
 #lbClose.grey {
-    background: url('https://cloud.githubusercontent.com/assets/27365640/25339492/9f67b45e-290b-11e7-8865-7554741be228.png') no-repeat !important;
+    background: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/X.png') no-repeat !important;
 }
 #lbOuterContainer.grey, #lbDetailsContainer.grey {
     border: none !important;
@@ -1204,83 +1205,83 @@ div.content div.specifications-list dl.specifications-row.noborder {
 
 /* Images */
 .formbuttonrow img[alt="^"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339543/bb6f7c22-290b-11e7-8c74-3e3fdfb16a54.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/UP.png') !important;
 	height: 21px !important;
 	padding-right: 24px !important;
 	width: 0 !important
 }
 img[alt="Жалоба"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339539/bb2ce10a-290b-11e7-9470-a6954fbe601e.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/G.png') !important;
 	height: 21px !important;
 	padding-right: 72px !important;
 	margin-left: 2px !important;
 	width: 0 !important
 }
 img[alt="Вставить ник"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339536/baf3f250-290b-11e7-8bfa-e3ae7b0d021e.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/Name.png') !important;
 	height: 21px !important;
 	padding-right: 52px !important;
 	width: 0 !important
 }
 img[alt="Цитировать"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339540/bb32b922-290b-11e7-8451-486231c7b463.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/Quote1.png') !important;
 	height: 21px !important;
 	padding-right: 92px !important;
 	margin-left: 2px !important;
 	width: 0 !important
 }
 img[alt="Редактировать"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339534/baef9aca-290b-11e7-8f05-27852dbe7890.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/izm.png') !important;
 	height: 21px !important;
 	padding-right: 89px !important;
 	width: 0 !important
 }
 img[alt="Удалить"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339544/bb7fc596-290b-11e7-88fe-92027a30c0a4.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/del.png') !important;
 	height: 21px !important;
 	padding-right: 80px !important;
 	margin-left: 2px !important;
 	width: 0 !important
 }
 img[alt="Ответить"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339517/b1547c4c-290b-11e7-9590-49a16ee55651.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/OTV.png') !important;
 	height: 22px !important;
 	padding-right: 89px !important;
 	margin-left: 2px !important;
 	width: 0 !important
 }
 img[alt="Быстрый ответ"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339535/baf08cbe-290b-11e7-88c6-e7a0beffb8bc.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BO.png') !important;
 	height: 22px !important;
 	padding-right: 120px !important;
 	width: 0 !important
 }
 img[alt="Новая тема"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339547/bc230b8e-290b-11e7-8fec-ce84978ee667.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/nt.png') !important;
 	height: 22px !important;
 	padding-right: 117px !important;
 	width: 0 !important
 }
 .formbuttonrow img[alt="+"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339541/bb61aafc-290b-11e7-876e-c29d71c698b2.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/up4.png') !important;
 	height: 21px !important;
     padding-right: 21px !important;
     width: 0 !important;
 }
 .formbuttonrow img[alt="-"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339542/bb6aca42-290b-11e7-8586-80c4e2cb31fc.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/down4.png') !important;
     height: 21px !important;
     padding-right: 21px !important;
     width: 0 !important;
 }
 .postdetails img[alt="+"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340306/f70066f0-290d-11e7-88cf-f651eab021a6.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/plus.png') !important;
 	height: 10px !important;
     padding-right: 10px !important;
     width: 0 !important;
 }
 .postdetails img[alt="-"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340308/fb1c8692-290d-11e7-861e-890131010c27.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/minus.png') !important;
     height: 10px !important;
     padding-right: 10px !important;
     width: 0 !important;
@@ -1296,7 +1297,7 @@ img[alt="Новая тема"] {
     width: 0 !important;
 }
 .postdetails img[alt="-----"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340231/c1a1772e-290d-11e7-8368-fd10f8bc4228.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/q3.png') !important;
     height: 10px !important;
     padding-right: 50px !important;
     width: 0 !important;
@@ -1306,16 +1307,22 @@ img[style="padding-bottom:2px"] {
     width: 0 !important;
 }
 img[src$="post_snapback.gif"], a[title="Перейти к сообщению"] img {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340124/6ccab9d6-290d-11e7-9433-4b343706525b.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/snapback.png') !important;
 	height: 14px !important;
 	padding-right: 14px !important;
 	width: 0
 }
 img[alt=">N"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340441/6e66824c-290e-11e7-85a8-a6fbded5e96e.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/to%20unread%20message.png') !important;
     background-repeat: no-repeat !important;
     height: 9px !important;
     padding-right: 9px !important;
+    width: 0 !important;
+}
+a[title="К последнему сообщению"] img {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/to%20last%20message.png') !important;
+    height: 10px !important;
+    padding-right: 10px !important;
     width: 0 !important;
 }
 td[center] .row2 img {
@@ -1323,48 +1330,42 @@ td[center] .row2 img {
     width: 0 !important;
 }
 img[alt="PM"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339519/b155bfda-290b-11e7-978d-06142bc8c2e2.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/priv.png') !important;
 	height: 21px !important;
 	padding-right: 57px !important;
 	width: 0 !important
 }
 img[alt="@"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340222/bb47ee58-290d-11e7-932a-e4f6c487a52d.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/attach.png') !important;
     background-repeat: no-repeat !important;
 	height: 10px !important;
 	padding-right: 15px !important;
 	width: 0 !important
 }
 img[alt="Показать объявления"],a[href$="0);"] img {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340756/636da8ec-290f-11e7-8866-d26d75bb5692.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/show_ads.png') !important;
 	height: 10px !important;
 	padding-right: 10px !important;
 	width: 0 !important
 }
 img[alt="Скрыть объявления"],a[href$="1);"] img {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340757/636fd040-290f-11e7-9d2a-422fc3abe9f0.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/hide_ads.png') !important;
 	height: 10px !important;
 	padding-right: 10px !important;
 	width: 0 !important
-}
-a[title="К последнему сообщению"] img {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339974/fbb6cc80-290c-11e7-997f-08971187a449.png') !important;
-    height: 10px !important;
-    padding-right: 10px !important;
-    width: 0 !important;
 }
 #navstrip img[alt$=">"], img[src$="menu_item.gif"] {
     background-image: none !important;
     width: 0 !important;
 }
 img[title="Открыть меню"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340620/02aca5a8-290f-11e7-9ab8-25bd117bd379.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/open%20menu.png') !important;
     height: 5px !important;
     padding-right: 7px !important;
     width: 0 !important
 }
 #ipbwrapper .gobutton, #ipb-tl-search_menu .button {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340642/15dbc794-290f-11e7-8796-6d5424994ac3.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/search%20button.png') !important;
     background-repeat: no-repeat !important;
     background-color: transparent !important;
     border: none !important;
@@ -1377,7 +1378,7 @@ img[title="Открыть меню"] {
     outline-width: 0px !important;
 }
 #ips-attach-menu img, #ips-attach-menu0 img, #ips-attach-menu1 img, #ips-attach-menu2 img, #ips-attach-menu3 img {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340521/b19297d6-290e-11e7-8c2c-d4f0a020ba1c.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/ips-attach-menu.png') !important;
 	height: 16px !important;
 	padding-right: 16px !important;
 	width: 0 !important
@@ -1403,7 +1404,7 @@ form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(3) {
     border-radius: 0 2px 2px 0 !important
 }
 img[src$="thread_closed"] {
-	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339537/bb10e05e-290b-11e7-8e96-440ae22b1a23.png') !important;
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/t_closed.png') !important;
 	height: 23px !important;
 	padding-right: 98px !important;
 	margin-left: 2px !important;
@@ -1412,134 +1413,135 @@ img[src$="thread_closed"] {
 
 /* BBCodes */
 img[alt="Жирный"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340924/e3764f80-290f-11e7-84f8-3ea714577141.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/bold.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Курсив"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341055/4a9aa47c-2910-11e7-9a58-f12832cf1eb5.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/i.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Подчёркивание"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341065/4ad37892-2910-11e7-97df-234f7db1185d.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/u.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Зачёркивание"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341060/4abae980-2910-11e7-9d62-28c5cafc5342.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/s.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Подстрочный текст"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341064/4ad0c75a-2910-11e7-91db-b4b175940718.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/sub.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Надстрочный текст"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341063/4acfdc32-2910-11e7-8003-3b080cc9eabc.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/sup.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Влево"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341052/4a9722d4-2910-11e7-9fdd-441302c88e33.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/left.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="По центру"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340921/e3752a2e-290f-11e7-9c13-5455a4cf73b8.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/center.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Вправо"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341057/4ab2171a-2910-11e7-870f-a919fa39a877.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/right.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Вставить гиперссылку"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341066/4ad66fde-2910-11e7-9a1b-6bb6bc83a5df.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/url.png') !important;
     height: 22px !important;
     padding-right: 20px !important;
     width: 0 !important;
 }
 img[alt="Вставить цитату"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341059/4ab5c612-2910-11e7-9841-63babb91d7d5.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/quote.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Оффтоп"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341056/4ab107d0-2910-11e7-95a9-e64a5cb928cb.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/offtop.png') !important;
     height: 22px !important;
     padding-right: 20px !important;
     width: 0 !important;
 }
 img[alt="Вставить код"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341053/4a974a2a-2910-11e7-8588-98bf9ed37b0a.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/code.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Сделать текст сворачиваемым"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341062/4acef452-2910-11e7-85c6-afcf5f247c0f.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/spoiler.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Сделать текст сворачиваемым и добавить заголовок"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341061/4abaf650-2910-11e7-9251-052c7fc94631.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/spoil.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Скрытый текст"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341050/4a9627a8-2910-11e7-9014-9d8066d9b5e6.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/hide.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Вставить список"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341051/4a96e698-2910-11e7-98a6-f80a9f9db6d5.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/list.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Вставить нумерованный список"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341058/4ab38488-2910-11e7-831a-80e9e7313eb4.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/numlist.png') !important;
     height: 22px !important;
     padding-right: 22px !important;
     width: 0 !important;
 }
 img[alt="Удалить все BB коды"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341054/4a9a9c0c-2910-11e7-83f3-409d82e88236.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/clear.png') !important;
     height: 22px !important;
     padding-right: 20px !important;
     width: 0 !important;
 }
 img[alt="Помощь по ББ кодам"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340922/e3756fa2-290f-11e7-9a5b-821ecb98c0cb.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/bb_help.png') !important;
     height: 22px !important;
     padding-right: 20px !important;
     width: 0 !important;
 }
 img[alt="Уменьшить форму ответа"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340923/e3760fd4-290f-11e7-889f-ef53fa3f6d46.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/area_minus.png') !important;
     height: 22px !important;
     padding-right: 20px !important;
     width: 0 !important;
 }
 img[alt="Увеличить форму ответа"] {
-    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340920/e3750954-290f-11e7-84a5-23b207240a55.png') !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Images/BB%20codes%20white/area_plus.png') !important;
     height: 22px !important;
     padding-right: 20px !important;
     width: 0 !important;
+}
 }
