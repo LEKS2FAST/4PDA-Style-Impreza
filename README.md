@@ -1,5 +1,5 @@
-﻿## 4DPA: Impreza. CSS стиль для портала 4PDA.ru
-Тёмно-синий полупрозрачный стиль для 4PDA.ru. Оформление сайта и DevDB в комплекте.
+## 4DPA: Impreza. CSS стиль для портала 4PDA.ru
+Тёмно-синий полупрозрачный стиль. Оформление сайта и DevDB в комплекте.
 ***
 Домашняя страница: [userstyles.org](https://userstyles.org/styles/138409/4pda-impreza)
 ***
