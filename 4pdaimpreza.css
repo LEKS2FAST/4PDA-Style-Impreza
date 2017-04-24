@@ -1,0 +1,1545 @@
+﻿/* Forum */
+body {
+    background: transparent !important;
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339493/9f76a89c-290b-11e7-8beb-98b5c910a8b5.jpg') !important;
+    background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: #ffffff !important;
+}
+.row1[style="padding: 4px;"] a span, .postcolor a span, .signature a span, .borderwrap a span, .globalmesscontent a span {
+    display: inline-block !important;
+    text-decoration: none !important;
+    line-height: 0.95 !important;
+    border-bottom: 1px solid currentColor !important;
+}
+.row1[style="padding: 4px;"] a span:hover {
+    opacity: 0.8 !important;
+}
+#logostrip {
+    height: 90px !important;
+    background-color: transparent;
+}
+#logostrip img {
+	background: url('https://cloud.githubusercontent.com/assets/27365640/25339490/9f6719fe-290b-11e7-944a-64dc984596f4.png') !important;
+	height: 76px !important;
+	padding-right: 210px !important;
+	width: 0 !important;
+}
+.borderwrap, .borderwrapm {
+    background: rgba(11, 29, 82, 0.8) !important;
+    border: 1px solid #183797 !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+}
+table.ipbtable, tr.ipbtable, td.ipbtable {
+    background: transparent !important;
+    color: #E3F2FD !important;
+}
+.row1 {
+    background: rgba(0,0,0,0.15) !important;
+}
+.row2 {
+    background: rgba(0,0,0,0.2) !important;
+}
+a:link, a:visited, a:active {
+    color: #ffffff !important;
+}
+a:hover {
+    color: #f4b561 !important;
+}
+.forumdesc, .forumdesc a:link, .forumdesc a:visited, .forumdesc a:active {
+    color: #7bc4ff !important
+}
+.forumdesc a:hover {
+    color: white !important;
+}
+.copyright {
+    background: transparent !important;
+}
+.pagelink, .pagelinklast, .pagecurrent, .minipagelink, .minipagelinklast {
+    border: 0px solid #183797 !important;
+    border-radius: 3px !important;
+    font-weight: bold;
+}
+.pagelink, .pagelinklast {
+	background: transparent !important;
+    color: white !important;
+    text-shadow: 1px 1px 1px #000000 !important;
+}
+.pagecurrent {
+    background: #183797 !important;
+    color: white !important;
+    padding: 3px 4px 3px 4px !important;
+    border: 1px solid #10266c !important;
+}
+.minipagelink, .minipagelinklast {
+    background: transparent !important;
+}
+.minipagelinklast {
+    background: rgba(255, 255, 255, 0.15) !important;
+    padding: 2px 3px 2px 3px !important;
+}
+#gfooter {
+    background: rgba(11, 29, 82, 0.8) !important;
+    border-radius: 5px !important;
+    border: 1px solid #183797 !important;
+}
+.textarea, .searchinput, .button, button.editor_button, .gobutton {
+    border: solid 1px #005ca7 !important;
+    color: #fff !important;
+    border-radius: 3px !important;
+    background: linear-gradient(to bottom, #a1b4da 0%,#1948a5 52%,#183797 99%) !important;
+}
+.borderwrap h3, .maintitle, .maintitlecollapse {
+    background: none !important;
+    border: 0px solid #2982cc !important;
+    border-bottom: 0px solid #14140d !important;
+    background-color: transparent !important;
+}
+.borderwrap p {
+    background: transparent !important;
+    border: 0px solid transparent !important;
+}
+.errorwrap {
+    background: rgba(255, 0, 0, 0.4) !important;
+    border: 0px solid rgba(255,0,32,0.2) !important;
+    border-radius: 5px !important;
+}
+.errorwrap h4 {
+    background: transparent !important;
+    border: 0px solid #10276d !important;
+    color: #ffffff !important;
+}
+.errorwrap p {
+    color: #fff !important;
+}
+.popupmenu-category {
+    background: transparent !important;
+    border-top: 0px solid #10276d;
+    border-bottom: 0px solid #266ec3 !important;
+    border-radius: 3px 3px 0 0 !important;
+    color: #ffffff !important;
+}
+.popupmenu, .popupmenu-new {
+    background: rgba(11, 29, 82, 0.85) !important;
+    border: 2px solid #266ec3 !important;
+    border-radius: 5px !important;
+}
+.upopupmenu, .upopupmenu-new {
+    background-color: rgba(11, 29, 82, 0.8) !important;
+    border: 2px solid #266ec3 !important;
+    border-radius: 5px !important;
+}
+.upopupmenu-item {
+    border-bottom: 0px solid #266ec3 !important;
+}
+.popmenubutton-new {
+    background-image: none !important;
+}
+.popmenubutton-new, .popmenubutton {
+    background-color: #10266c !important;
+    border: 0px solid #183797 !important;
+    border-radius: 3px !important;
+}
+.popupmenu-item {
+    border-bottom: 0px solid #10276d !important;
+}
+#page-jump-1_menu, #page-jump-2_menu {
+    background: rgba(11, 29, 82, 0.9) !important;
+}
+.input-warn, .input-green, .input-checkbox, input, textarea, select {
+    background: rgba(255, 255, 255, 0.35) !important;
+    border: 2px solid transparent !important;
+    color: #fff !important;
+    border-radius: 3px !important;
+}
+#searchbutton > div > input {
+    border: solid 1px #005ca7 !important;
+    background: linear-gradient(to bottom, #a1b4da 0%,#1948a5 52%,#183797 99%) !important;
+}
+input:focus, textarea:focus, keygen:focus, select:focus {
+    outline-color: #183797 !important;
+}
+.globalmesswrap {
+    background: rgba(0,0,0,0.6) !important;
+    border: 1px solid #183797 !important;
+    border-radius: 4px!important;
+}
+.globalmesswrap h4 {
+    background: #183797 !important;
+    border: 0px solid #183797 !important;
+    color: #ffffff !important;
+}
+#userlinks, #userlinksguest {
+    background: #183797 !important;
+    border: 0px solid transparent !important;
+    border-radius: 4px !important;
+}
+#navstrip {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #000000 !important;
+}
+#fo_-1 .iptable div {
+	border: 0px solid white !important;
+}
+#submenu {
+    color: #adf !important;
+}
+.formtable td.formtitle, .formsubtitle {
+    background: transparent !important;
+    border: 0px solid #183797 !important;
+}
+.formsubtitle {
+    border: 0 !important;
+    color: #ffffff !important;
+}
+.subtitlediv {
+    border: 0px solid #fff !important;
+}
+.activeusers {
+    background: transparent !important;
+    border-radius: 5px !important;
+    border: 0px solid #183797 !important;
+}
+.lastaction {
+    font-size: 10px !important;
+    color: #adf !important;
+}
+.btn {
+    background: #183797 !important;
+    border: 2px solid #10266c !important;
+    border-radius: 4px !important;
+}
+.btn:hover {
+    background: white !important;
+    color: #183797 !important;
+    text-shadow: none !important;
+}
+.btn.white {
+    background: white !important;
+    border-color: #183797 !important;
+    color: #183797 !important;
+}
+.btn.red {
+    background: #ff3f3f !important;
+    border-color: #ff3f3f !important;
+}
+.btn.red:active, .btn.red.active {
+    background: #ffffff !important;
+    border-color: #183797 !important;
+}
+.btn.red:hover, .btn.red:focus {
+    background: #FF4C59 !important;
+    border-color: #ff4c59 !important;
+    color: white !important;
+}
+.btn.blue:hover, .btn.blue:focus, .btn.blue:active, .btn.blue.active {
+    background: #2a4ba0 !important;
+    border-color: #2a4ba0 !important;
+    color: #fff !important;
+}
+.btn.blue {
+    background: #183797 !important;
+    border-color: #183797 !important;
+}
+table th, .borderwrap table th, .subtitle, .subtitlediv, .postlinksbar {
+    background: none !important;
+    border-bottom: 1px solid #183797 !important;
+    color: #ffffff !important;
+    background-color: #183797 !important;
+    border-radius: 3px !important;
+}
+.toplinks span {
+    background: rgba(11, 29, 82, 0.75) !important;
+    border: 1px solid #183797 !important;
+    color: #ffffff !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+.plainborder, .tablefill, .tablepad {
+    background: rgba(11, 29, 82, 0.8) !important;
+    border-radius: 4px !important;
+    border: 1px solid #183797 !important;
+}
+hr.sfr {
+    border-top: dotted 0px #183797 !important;
+}
+.desc {
+    font-size: 11px !important;
+    color: #ccc !important;
+}
+.darkrow1 {
+    background: transparent !important;
+    color: #ccc !important;
+}
+#go_1 {
+    background: rgba(11, 29, 82, 0.8) !important;
+    border: 1px solid #183797 !important;
+    border-radius: 4px !important;
+}
+#go_1 > h4, #gc_1 > h4 {
+    background: transparent !important;
+    border: none !important;
+    color: #ffffff !important;
+}
+#gc_1 {
+    background: #183797  !important;
+    border: 2px solid #183797  !important;
+    border-radius: 4px !important;
+}
+.borderwrap.read .row2, .borderwrap.read .post2, .borderwrap.read .post1, .borderwrap.read td.formbuttonrow {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+}
+body > div.wr-t > div > div {
+    color: #fff !important;
+    background: rgba(11, 29, 82, 0.85) !important;
+    border: 1px solid #183797 !important;
+    border-radius: 7px !important;
+}
+.formsubtitle > .forminput, select {
+    background: #3355b3 !important;
+    outline: none !important;
+}
+.activeusers > .row2 {
+    background: transparent !important;
+}
+.activeusers span.desc {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #000000 !important;
+}
+.ac_results { 
+    border: solid 1px #183797 !important;
+    background: rgba(0, 16, 60, 0.9) !important;
+}
+.ac_over { 
+    background: #183797 !important;
+}
+.select-field select[gender] {
+    box-shadow: none;
+    background: transparent;
+}
+body > ul.tbl.main > li > div {
+    border: 1px solid #183797 !important;
+    background: rgba(0,0,0,0.7) !important;
+    border-radius: 7px !important;
+}
+ul.tbl.head {
+    background: #183797 !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+
+/* Placeholder */
+::-webkit-input-placeholder {
+    color: #e1f5fe !important;
+}
+::-moz-placeholder {
+    color: #e1f5fe !important;
+    opacity: 1 !important;
+}
+
+/* UCP */
+.usercp_menu {
+    background-color: transparent !important;
+    border: 1px solid #d5d18a !important;
+}
+.usercp_menu, .usercp_menu_out {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339491/9f672598-290b-11e7-97bf-ffd55228f88a.png') !important;
+    color: #fefefe !important;
+    border: 0px solid #e91e63 !important;
+}
+#ucpmenu, #ucpcontent {
+    background: rgba(11, 29, 82, 0.75) !important;
+    border: 1px solid #183797 !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+}
+.ucp-vline {
+    border-left: 0px solid #183797 !important;
+}
+.pp-title {
+    background: none !important;
+    border-bottom: 1px solid transparent !important;
+    background-color: transparent !important;
+}
+.pp-contentbox-back {
+    background-color: transparent !important;
+}
+.pp-contentbox-entry, .pp-contentbox-entry-noheight, .pp-contentbox-entry-noheight-mod, .pp-contentbox-entry-noheight-sel {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border: 0px solid #183797 !important;
+    border-radius: 5px !important;
+}
+.pp-tiny-text {
+    color: #E3F2FD !important;
+}
+fieldset {
+    border-width: 0px !important;
+}
+form > .borderwrap[style="padding:1px"] {
+    background: transparent !important;
+    border: none !important;
+}
+div.pp-title[style="height:20px"] {
+    background: rgba(11, 29, 82, 0.8) !important;
+    border-radius: 4px !important;
+    margin-bottom: 3px !important;
+    border: 1px solid #183797 !important;
+}
+
+/* Text Colors */
+span[style="color:royalblue"] {
+	color: #59b9f9 !important;
+}
+span[style="color:indigo"] {
+	color: #c472ff !important;
+}
+span[style="color:orangered"] {
+	color: #ff7a18 !important;
+}
+span[style="color:#0000ff"] {
+	color: #7193fb !important;
+}
+span[style="color:#FF0000"], span[style="color:red"] {
+	color: #ff7070 !important;
+}
+span[style$="color:crimson"], span[style="color: #6b1e2c;"] {
+    color: #ff5272 !important;
+}
+span[style="color:#ff6600"] {
+	color: #ff8f44 !important;
+}
+span[style="color:blue"], span[style="color:mediumblue"], span[style="color:#19007a"], span[style="color:darkblue"], span[style="color:DarkBlue"] {
+	color: #0087ff !important;
+}
+span[style="color:#6060ff"] {
+	color: #9393ff !important;
+}
+span[style$="color:#000000"], span[style="color:black"], [style="font-weight:bold;color:#222222;"], font[style="font-size:9px;color:gray;"], span[style="color:gray"], .signature {
+	color: #ccc !important;
+}
+span[style="color:maroon"] {
+	color: #ce4e4e !important;
+}
+span[style="color:#008273"] {
+	color: #00c5af !important;
+}
+span[style="color:green"] {
+	color: #00b700 !important;
+}
+span[style="color:darkred"] {
+	color: #f52828 !important;
+}
+span[style="color:#3d009a"] {
+	color: #6e41b3 !important;
+}
+span[style="color:teal"] {
+	color: #00bdbd !important;
+}
+span[style$="color:purple"], span[style$="color:#CF0CA6"], span[style$="color:Purple"], span[style$="color:#800080"], span[style="color:#950080"] {
+    color: magenta !important;
+}
+span[style$="color:blue"] {
+    color: #5974ff !important;
+}
+span[style$="color:#BC33FF"], span[style$="color:#B100BF"] {
+    color: #d57fff !important;
+}
+span[style="color:Indigo"] {
+    color: #ff28ff !important;
+}
+
+/* Topic */
+td[id^="ph-"] {
+    background: #183797 !important;
+    border-radius: 3px !important;
+}
+.post1, .bg1, .post2, .bg3 {
+    background: transparent !important;
+}
+.catend {
+    display: none !important;
+}
+.post-block.quote > .block-title, .post-block.code > .block-title, .post-block.hidden > .block-title, .post-block.spoil > .block-title, .post-block.quote > .block-body, .post-block.code > .block-body, .post-block.hidden > .block-body, .post-block.spoil > .block-body {
+    background: none !important;
+}
+.post-block {
+    border: none !important;
+}
+.post-block.quote > .block-title, .post-block.code > .block-title, .post-block.hidden > .block-title {
+    color: #e1f3ff !important;
+}
+.post-block.quote {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 4px !important;
+}
+.post-block.quote > .block-body, .post-block.hidden > .block-body {
+    color: #d6e8ff !important;
+}
+.post-block.code {
+    background: rgba(120, 201, 255, 0.25) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 4px !important;
+}
+.post-block.code > .block-body {
+    color: white !important;
+}
+.post-block.hidden {
+    background: rgba(204, 204, 204, 0.3) !important;
+    border-radius: 4px !important;
+}
+.post-block.quote > .block-title {
+	background: url('https://cloud.githubusercontent.com/assets/27365640/25339494/9f7e8e04-290b-11e7-8136-9d3107b76a1b.png') no-repeat right !important;
+}
+.post-block.code > .block-title {
+	background: url('https://cloud.githubusercontent.com/assets/27365640/25339496/9fa584fa-290b-11e7-8e39-14bc2f06e67a.png') no-repeat right !important;
+}
+.post-block.spoil.close {
+    background: #183797 !important;
+    color: white !important;
+    border-radius: 3px !important;
+}
+.post-block.spoil > .block-title * {
+    color: inherit !important;
+} 
+.post-block.spoil > .block-title {
+    color: white !important;
+}
+.post-block.spoil > .block-body {
+    color: #eaf3ff !important;
+}
+.post-block.spoil {
+    background: rgba(2, 136, 209, 0.2) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 5px !important;
+}
+.post-block.spoil.open .open {
+    background: rgba(0, 0, 0, 0.25) !important
+}
+.post-block.spoil.open .open .open {
+    background: rgba(2, 136, 209, 0.18) !important
+}
+.post-block.spoil.open .open .open .open {
+    background: rgba(0, 0, 0, 0.25) !important
+}
+#lbClose.grey {
+    background: url('https://cloud.githubusercontent.com/assets/27365640/25339492/9f67b45e-290b-11e7-8865-7554741be228.png') no-repeat !important;
+}
+#lbOuterContainer.grey, #lbDetailsContainer.grey {
+    border: none !important;
+}
+#lbDetailsContainer {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 0 0 5px 5px !important;
+}
+#lbOuterContainer {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+#lbDetailsData.grey {
+    color: #ffffff !important;
+}
+.resized-linked-image {
+    border: none !important;
+    border-radius: 5px !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+}
+.dw-fname, .dw-fsize, .dw-fdwlink, .dw-descr, .dw-fdwlink a {
+    text-shadow: none !important;
+    color: black !important;
+}
+td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbuttonrow1 {
+    background: rgba(0,0,0,0.0) !important;
+    border: 0px solid #fff !important;
+    border-top: 1px solid transparent !important;
+}
+.bar, .barb, .barc {
+    background: rgba(34, 42, 51, 0) !important;
+    border: 0px solid #2f3d2c !important;
+}
+.post-block.tbl {
+    border: 0px solid currentColor !important;
+    background: none !important;
+}
+.post-block.tbl > * {
+    color: #e3f2fd !important;
+}
+.post-block.tbl > .block-title {
+    border-radius: 5px 0 0 5px !important;
+}
+.post-block.mod > .block-body, .post-block.ex > .block-body, .post-block.cur > .block-body {
+    border-radius: 0px 5px 5px 0px !important;
+}
+.post-block.mod > .block-title, .post-block.mod > .block-body {
+    background: rgba(67, 115, 195, 0.55) !important
+}
+.post-block.ex > .block-title, .post-block.ex > .block-body {
+    background: rgba(219, 20, 58, 0.55) !important;
+}
+.post-block.cur > .block-title, .post-block.cur > .block-body {
+    background: rgba(0, 150, 136, 0.55) !important
+}
+.post-block.quote > .block-title:before {
+    content: 'Цитата: ' !important;
+}
+.post-block.quote > .block-title:after {
+    content: '' !important;
+}
+.post-edit-reason {
+    background: rgba(58, 79, 108, 0.35) !important;
+    color: #4dd0e1 !important;
+    border: 1px solid transparent !important;
+    border-radius: 3px !important;
+}
+#ipbwrapper div.borderwrap form table.ipbtable tbody tr td.row1 div.borderwrap {
+    background: rgba(58, 116, 255, 0.25) !important;
+}
+#ipbwrapper div.borderwrap form table.ipbtable tbody tr td.row1 div.borderwrap div.row1 {
+    background: transparent !important;
+}
+#ipbwrapper div.borderwrap div.row1 {
+    background: transparent !important;
+}
+.ipbtable[cellspacing="1"] td[colspan="3"].row1 {
+    background: transparent !important;
+}
+.postdetails center font[color="green"], .postdetails center font[color="red"] {
+    color: transparent !important; 
+}
+.postdetails center font[color="green"]:after, .postdetails center font[color="red"]:after {
+    background: #183797 !important;
+    top: 0.5rem !important;
+    display: block !important;
+    border-radius: 0.2rem !important;
+    width: 3.5rem !important;
+    height: 0.95rem !important;
+    border: 1px solid #005ca7 !important;
+    text-shadow: 1px 1px 1px black !important;
+    margin: -1rem !important;
+    position: relative !important;
+}
+.postdetails center font[color="green"]:after {
+    content: "Online" !important;
+    color: #4CAF50 !important;
+}
+.postdetails center font[color="red"]:after {
+    content: "Offline" !important;
+    color: #ff6458 !important;
+}
+
+/* Creator */
+.ed-wrap .ed-panel {
+    background: none !important;
+    background-color: #183797 !important;
+}
+.ed-wrap .ed-p-textarea {
+    background: #183797 !important;
+}
+.ed-wrap .ed-vtoggle-normal, .ed-wrap .ed-vtoggle-hover, .ed-wrap .ed-vtoggle-down {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #f0f5fa !important;
+}
+.ed-wrap div.ed-bbcode-normal, .ed-wrap div.ed-bbcode-hover, .ed-wrap div.ed-bbcode-down, .ed-wrap .ed-panel-title {
+    color: #fff !important;
+}
+.ed-wrap .ed-bbcode-hover {
+    background-color: #3351af !important;
+    border: solid 1px #3351af !important;
+    border-radius: 3px !important;
+}
+.ed-wrap .ed-bbcode-down {
+    background-color: rgba(0,0,0,0.2) !important;
+    border: solid 1px transparent !important;
+    color: #183797 !important;
+    border-radius: 3px !important;
+}
+.ed-wrap .ed-textarea {
+    background: #10266c !important;
+}
+.darkrow3 {
+    background: transparent !important;
+    color: #fff !important;
+}
+body[style="background:transparent;"], div[style="padding:4px; background-color: #F0F7FF;"] {
+	background: transparent !important;
+}
+td[style="border:solid 1px white;"] {
+    border: solid 1px #183797 !important;
+    border-radius: 2px !important;
+}
+.attach-menubutton {
+    background-image: none !important;
+    background: #183797 !important;
+}
+.attach-popupmenu, .attach-menubutton {
+    background-color: #072a66 !important;
+    border: 1px solid #072a66 !important;
+    border-radius: 2px !important;
+}
+.attach-menu-row-over {
+    background-color: rgba(0,0,0,0.2) !important;
+    border-radius: 2px !important;
+}
+#ed-0_ap > table {
+	border-bottom: solid 0px !important;
+}
+#ed-0_ap, #ed-1_ap, #ed-2_ap, #ed-3_ap, #ed-4_ap, #ed-5_ap {
+	border-top: 0.0px solid !important;
+	border-bottom: 0.0px solid !important;
+	border-left: 0.0px solid !important;
+	border-right: medium none !important;
+}
+#ed-1_ap > table, #ed-2_ap > table, #ed-3_ap > table, #ed-4_ap > table, #ed-5_ap > table {
+	border-bottom: solid 0px white !important;
+}
+.check_list_div {
+    background: transparent !important;
+    border-color: #183797 !important;
+    border-radius: 4px !important;
+}
+        
+/* Profile */
+body > div > div > div > div > div > form > ul > li > div > span > i {
+    color: #ffffff !important;
+}
+body > div > div > div > div > div > form > ul > li {
+    background: rgba(16, 39, 109, 0.8) !important;
+    border: 1px solid #183797 !important;
+    border-radius: 7px !important;
+}
+.social-link li:after, .content-box ul li:before, .content-box .item-list li:before {
+    background: #9da8c2 !important;
+    border-radius: 4px !important;
+}
+.btn-link {
+    padding: 2px !important;
+    color: #ffffff !important;
+    background: linear-gradient(to bottom, #a1b4da 0%,#1948a5 52%,#183797 99%) !important;
+    border: 1px solid #005ca7 !important;
+    border-radius: 4px !important;
+    margin: 2px 0px 0px 2px !important;
+    text-align: center !important;
+}
+.u-note:after {
+    background: #183797 !important;
+    color: #ffffff !important;
+}
+.u-note {
+    border-top: 1px solid #183797 !important;
+    border-bottom: 1px solid #183797 !important;
+}
+.info-list .warn-btn {
+    background: #ffffff !important;
+    border-radius: 2px !important;
+    color: #10266c !important;
+    text-shadow: none !important;
+}
+#footer {
+    background: transparent !important;
+}
+.footer-panel, .footer-nav {
+    background: rgba(16, 38, 108, 0.65) !important;
+}
+.footer-nav .f-note, .footer-panel {
+    color: #ccc !important;
+}
+.profile-textarea {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 5px !important;
+}
+
+/* Nav */
+#nav ul li > a:hover, #nav ul li:not([class=""]) a, .slider-active {
+    background: #ffffff !important;
+    color: #183797 !important;
+    text-shadow: none !important;
+    font-weight: bold !important;
+}
+#nav a {
+    font-weight: bold !important;
+}
+#nav ul li > *.slider-active[data-slider], #nav ul li > *:hover[data-slider] {
+    color: #183797 !important;
+    text-shadow: none !important;
+}
+#header .h-frame {
+    background: rgba(16, 39, 109, 0.8) !important;
+}
+.events-count {
+    background: #183797 !important;
+}
+.slider-content .meta-box {
+    background: #183797 !important;
+    border: 1px solid #183797 !important;
+}
+.slider-content {
+    border: solid #2d4cab !important;
+    border-width: 0px 2px 2px 2px !important;
+    background: rgba(24, 55, 151, 0.8) !important;
+    border-radius: 0 0 5px 5px !important;
+}   
+.slider-content .article-box h3 {
+    background: rgba(0,0,0,0.6) !important;
+    border-radius: 4px !important;
+    padding: 5px !important;
+}
+.slider-content .meta-box a:not(.active):not(:hover) {
+    background: #2d4cab !important;
+    color: #ffffff !important;
+    border: 0px solid #2d4cab !important;
+    border-radius: 3px !important;
+}
+.slider-content:after {
+    background: #183797 !important;
+}
+.slider-content .meta-box a:hover, .slider-content .meta-box a.active {
+    color: #ffffff !important;
+    background: rgba(0,0,0,0.35) !important;
+    border-radius: 3px !important;
+}
+.search-form input {
+	background: transparent !important;
+	border: 0px !important
+}
+.search-form,.drop-search .search-form .area {
+    background: transparent !important;
+    border-bottom: 2px solid #e1f5fe !important;
+}
+.btn-search {
+	color: #e1f5fe !important;
+    background: transparent;
+}
+.btn-search:hover {
+	color: #f4b561 !important;
+}
+.i-code.open > a, .i-code:hover > a {
+    color: #ffffff !important;
+}
+.i-code.open, .i-code:hover {
+    background: transparent !important;
+}
+.i-code .dropdown-menu {
+    border: solid 2px #183797 !important;
+    background: rgba(0,0,0,0.7) !important;
+}         
+.icon-text-overlay.blue {
+    background-color: #ffffff !important;
+    color: #183797 !important;
+    border-radius: 7px !important;
+}
+.overlay-block .overlay-orange {
+    background: #e91e63 !important;
+}
+
+/* QMS */
+#events-count {
+    background: #183797 !important;
+}
+#events-wrapper {
+    background: rgba(0,0,0,0.7) !important;
+    border: solid 1px #183797 !important;
+}
+#events-list > a {
+    border-bottom: solid 0px #183797 !important;
+}
+#events-list > a:hover {
+    background: rgba(0,0,0,0.5) !important;
+}
+.events-popup {
+    background: rgba(0,0,0,0.6) !important;
+    border: 1px solid #183797 !important;
+}
+#nav .title span {
+    color: #ffffff !important;
+    background: #183797 !important;
+    border: solid 2px #183797 !important;
+    border-radius: 4px !important;
+}
+.header {
+	background: transparent !important
+}
+#body, .list-group .list-group-item, .navbar {
+    background: rgba(11, 29, 82, 0.6) !important;
+    border-bottom: 1px solid #183797;
+}
+.navbar {
+    background: rgba(16, 39, 109, 0.8) !important;
+}
+.list-group .list-group-item:hover,.list-group-item:hover > .bage {
+	background: rgba(24, 55, 151, 0.4) !important;
+}
+.list-group-item.active,.list-group-item.active:hover,.list-group-item.active:focus {
+	background: #183797 !important;
+}
+.thread-list .our-message {
+    color: #adf !important;
+}
+.thread-list .date {
+    border-top: 0px dotted #868686 !important;
+    color: #ffffff !important;
+}
+.thread-list .time {
+    color: #d0d0d0 !important;
+}
+.thread-list .date .text {
+    top: -4.5px !important;
+    background: #183797 !important;
+    padding: 5px 12px !important;
+}
+.list-group .list-group-item .bage, .list-group .list-group-item .icon-close {
+    background: none !important;
+}
+.list-group .list-group-item {
+    border-bottom: 0px solid #183797!important;
+}
+.form-bg {
+    background: rgba(11, 29, 82, 0.6) !important;
+}
+.form-input.block, #thread-msg {
+    background: rgba(0, 0, 0, 0.45) !important;
+}
+.body-thread-form {
+    border-top: 1px solid #183797 !important;
+}
+#contacts {
+    border-right: 1px solid #183797 !important;
+}
+.msgbox.error {
+    color: #EC407A !important;
+}
+.dropdown-menu {
+	background-color: rgba(0,0,0,0.6) !important;
+	border: 2px solid #183797 !important;
+    border-radius: 5px !important;
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {
+	background-color: #183797 !important;
+    color: #fff !important;
+}
+.dropdown-menu .divider {
+    height: 0px !important;
+    margin: 5px 0 !important;
+}
+.toggle-node-btn {
+    background: #183797 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    margin: 17px -5px !important;
+}
+.bb-codes {
+    background: rgba(24, 55, 151, 0.31) !important;
+    border: 2px solid #10266c !important;
+    border-radius: 7px !important;
+}
+#body.body div.body-tbl div svg {
+    display: none !important;
+}
+.icon-close:before {
+    color: white !important;
+}
+.footer {
+    border-top: 0px solid #183797 !important;
+    background: rgba(11, 29, 82, 0.8) !important;
+    color: #fff !important;
+}
+
+/* Site */
+body > div > div > div > div > div > ul > li {
+    background: rgba(11, 29, 82, 0.8) !important;
+    border: 0px solid #183797 !important;
+    border-radius: 7px !important;
+}
+aside > div:nth-child(n), body > div > div > div > div > div > section > aside > div > div:nth-child(n) {
+    background: rgba(11, 29, 82, 0.7) !important;
+    border-color: #183797 !important;
+    border-radius: 7px !important;
+}
+.side-box {
+    border: 1px solid #183797 !important;
+}
+div[style="background: rgb(230, 231, 233) none repeat scroll 0% 0% ! important;"] {
+    background: rgba(0,0,0,0.6) !important;
+}
+section {
+    background: transparent !important;
+    border: 0px solid #183797 !important;
+}
+#header + div{
+    background: none !important;
+}
+.post {
+    background: rgba(11, 29, 82, 0.85) !important;
+    border: 1px solid #183797 !important;
+    border-radius: 7px !important;
+}
+.post p {
+    color: white !important;
+}
+.post .visual {
+    border: none !important;
+}
+.post .visual img {
+    border-radius: 7px 0 0 7px !important;
+}
+.post .v-panel {
+    background: rgba(0,0,0,0.6) !important;
+    border-radius: 0 0 0 7px !important;
+}
+.post .btn-more {
+    background: #183797 !important;
+}
+.post .v-panel .v-count, .product-detail .more-box .number, .product-detail .more-box .count-autor, .poll-list .slider .value {
+    background: #183797 !important;
+}
+.bg-shadow {
+    background: none !important;
+}
+.testimonials-list, .comment-box .comment-list, .comment-box .comment-list .karma a, .comment-box .comment-list .karma [data-karma-act] {
+    color: #adf !important;
+}
+.price-slider .ui-slider .ui-slider-range, .v-panel .v-count {
+    background: #3957b3 !important;
+}
+.testimonials-list .meta-box {
+    color: #bbbbbb !important;
+}
+.price-slider .ui-slider .ui-slider-handle, .testimonials-list .h-count, .top-product-list .t-count {
+    background: #ffffff !important;
+    color: #10266c !important;
+    text-shadow: none !important;
+    font-weight: bold !important;
+}
+.price-slider .ui-slider .ui-slider-handle span {
+    border-top: 8px solid #ffffff !important;
+}
+.price-slider .ui-slider, .top-product-list .line {
+    background: rgba(255, 255, 255, 0.2) !important
+}
+.container {
+    border: 1px solid #183797 !important;
+    background: rgba(11, 29, 82, 0.83) !important;
+    border-radius: 7px !important;
+}
+.product-detail {
+    background: transparent !important;
+    border-bottom: 0px solid #183797 !important;
+}
+.product-detail .photo, .search-list .photo {
+    border-right: 0px solid #183797 !important;
+}
+.product-detail .photo img {
+    border-radius: 7px 0 0 0 !important;
+}
+.content-box {
+    color: #E3F2FD !important;
+}
+.content-box blockquote {
+    border-left: 24px solid #183797 !important;
+}
+.content-box blockquote:before {
+    color: #fff !important;
+}
+.page-nav.box, .comment-box, .search-box, .search-list li {
+    background: rgba(11, 29, 82, 0.81) !important;
+    border: 1px solid #183797 !important;
+    border-radius: 7px !important;
+}
+.comment-box .comment-list .karma .num-wrap, .comment-box .comment-list .karma .num {
+    background: rgba(0, 0, 0, 0.25) !important;
+    font-weight: bold !important;
+    color: #ceebff !important;
+}
+.comment-box .heading, .box-title {
+    border-bottom: 1px solid #adf !important;
+}
+.comment-box .comment-list .h-meta {
+    color: #e2e2e2 !important;
+}
+.mlinks, .mlinks .mlscreenshots {
+    border-left: 1px solid #183797 !important;
+}
+.mlinks {
+    border: 1px solid #183797 !important;
+    border-width: 1px 0 1px 0 !important;
+}
+.mlinks .mlhead, .mlinks .mlright {
+    border: 0px solid #183797 !important;
+}
+.mlinks .sc-btn {
+    background: transparent !important;
+}
+.btn-review-all a, .review-bottom-informer .item {
+    background: #183797 !important;
+    border-radius: 3px !important;
+}
+.technical-info .even td, .table4site .even td, .technical-info tr:nth-child(even) > td, .table4site tr:nth-child(even) > td {
+    background: #183797 !important;
+}
+.technical-info td, .table4site td {
+    border: 1px solid #183797 !important;
+}
+.review-bottom-informer .item:nth-child(even) {
+    background: rgba(255, 255, 255, 0.2) !important
+}
+.page-nav li.active a, .page-nav a:hover {
+    background: #183797 !important;
+    border-radius: 3px !important;
+}
+.gray-row, .black-row, .white-row {
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: #ffffff !important;
+}
+.search-list .photo img {
+    border-radius: 7px 0 0 7px !important;
+}
+.news-list .number {
+    background: #3957b3 !important;
+    border: 1px solid #183797 !important;
+    border-radius: 6px !important;
+}
+.content h2 {
+    color: #f9bb68 !important;
+}
+.photo img {
+    border-bottom: 0px solid #ccc !important;
+}
+.post-row-gray, .post-row {
+    background: transparent !important;
+}
+.notice.red {
+    background: #D32F2F !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+}
+
+/* DevDB */
+.device-frame {
+    background: rgba(11, 29, 82, 0.7) !important;
+    border: none !important;
+    border-radius: 7px !important;
+}
+.device-frame .tab-control .active a, .device-frame .compare-table table tr.gray td {
+    background: #183797 !important;
+}
+.device-frame .tab-control {
+    border-bottom: none !important;
+}
+.device-frame .filter-form {
+    background: #183797 !important;
+    border: none !important;
+    border-radius: 7px !important;
+}
+.device-frame .items-list .specifications-row, device-frame .head .version span, .device-frame + .more-info .description, .device-index-header, .device-frame .head .version span, .device-frame .breadcrumbs, .device-frame .compare-table .diff-tbl .d td, .ddb-spec-row {
+    color: #adf !important;
+}
+.device-frame .sort-form-line > li .active {
+    background: #183797 !important;
+}
+.device-frame .comment-form h3 {
+    background: rgba(38, 110, 195, 0.6) !important;
+    border-radius: 5px !important;
+}
+.device-frame .comment-form .radio input[type="radio"] + span {
+    background: rgba(204, 204, 204, 0.7) !important;
+}
+.types-list .type-row {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 50%);
+    border-radius: 7px !important;
+}
+dl.specifications-row.noborder.gray-bg {
+    background: #183797 !important;
+    padding-left: 5px !important;
+}
+div.content div.specifications-list dl.specifications-row.noborder {
+    padding-left: 5px !important;
+}
+.device-frame .compare-table .compare-head {
+    background: rgba(16, 38, 108, 0.6) !important
+}
+.device-frame .compare-items-title .compare-box {
+    background: #183797 !important;
+    border-bottom: 0px solid #183797 !important;
+}
+.device-frame .compare-table .diff-tbl .b td {
+    color: #ffffff !important;
+}
+.device-frame .specifications-row {
+    border-bottom: none !important;
+}
+.ddb-wframe {
+    background: rgba(11, 29, 82, 0.8) !important;
+    border: solid 2px #266ec3 !important;
+    border-radius: 10px !important;
+}
+
+/* Auth */
+.page {
+    background: #183797 !important;
+    border-radius: 5px !important;
+}
+#h-wrapper {
+    border: 0px solid #183797 !important;
+    border-radius: 6px !important;
+}
+.title {
+    color: #ccc !important;
+}
+.input-wrap {
+    background: transparent !important;
+}
+.input-text {
+    background: #10266c !important;
+}
+#auth .btn, #chpass .btn, #chmail .btn, #lostpass .btn, #reg > div.row.input-wrap > input, #reg2 .btn {
+    background: white !important;
+    border: 1px solid #183797 !important;
+    color: #183797 !important;
+}
+#auth .btn:hover, #chpass .btn:hover, #chmail .btn:hover, #lostpass .btn:hover, #reg > div.row.input-wrap > input:hover, #reg2 .btn:hover {
+    background: rgba(0,0,0,0.5) !important;
+    color: white !important;
+}
+
+/* Images */
+.formbuttonrow img[alt="^"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339543/bb6f7c22-290b-11e7-8c74-3e3fdfb16a54.png') !important;
+	height: 21px !important;
+	padding-right: 24px !important;
+	width: 0 !important
+}
+img[alt="Жалоба"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339539/bb2ce10a-290b-11e7-9470-a6954fbe601e.png') !important;
+	height: 21px !important;
+	padding-right: 72px !important;
+	margin-left: 2px !important;
+	width: 0 !important
+}
+img[alt="Вставить ник"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339536/baf3f250-290b-11e7-8bfa-e3ae7b0d021e.png') !important;
+	height: 21px !important;
+	padding-right: 52px !important;
+	width: 0 !important
+}
+img[alt="Цитировать"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339540/bb32b922-290b-11e7-8451-486231c7b463.png') !important;
+	height: 21px !important;
+	padding-right: 92px !important;
+	margin-left: 2px !important;
+	width: 0 !important
+}
+img[alt="Редактировать"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339534/baef9aca-290b-11e7-8f05-27852dbe7890.png') !important;
+	height: 21px !important;
+	padding-right: 89px !important;
+	width: 0 !important
+}
+img[alt="Удалить"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339544/bb7fc596-290b-11e7-88fe-92027a30c0a4.png') !important;
+	height: 21px !important;
+	padding-right: 80px !important;
+	margin-left: 2px !important;
+	width: 0 !important
+}
+img[alt="Ответить"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339517/b1547c4c-290b-11e7-9590-49a16ee55651.png') !important;
+	height: 22px !important;
+	padding-right: 89px !important;
+	margin-left: 2px !important;
+	width: 0 !important
+}
+img[alt="Быстрый ответ"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339535/baf08cbe-290b-11e7-88c6-e7a0beffb8bc.png') !important;
+	height: 22px !important;
+	padding-right: 120px !important;
+	width: 0 !important
+}
+img[alt="Новая тема"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339547/bc230b8e-290b-11e7-8fec-ce84978ee667.png') !important;
+	height: 22px !important;
+	padding-right: 117px !important;
+	width: 0 !important
+}
+.formbuttonrow img[alt="+"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339541/bb61aafc-290b-11e7-876e-c29d71c698b2.png') !important;
+	height: 21px !important;
+    padding-right: 21px !important;
+    width: 0 !important;
+}
+.formbuttonrow img[alt="-"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339542/bb6aca42-290b-11e7-8586-80c4e2cb31fc.png') !important;
+    height: 21px !important;
+    padding-right: 21px !important;
+    width: 0 !important;
+}
+.postdetails img[alt="+"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340306/f70066f0-290d-11e7-88cf-f651eab021a6.png') !important;
+	height: 10px !important;
+    padding-right: 10px !important;
+    width: 0 !important;
+}
+.postdetails img[alt="-"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340308/fb1c8692-290d-11e7-861e-890131010c27.png') !important;
+    height: 10px !important;
+    padding-right: 10px !important;
+    width: 0 !important;
+}
+.postdetails img[alt="*"], #pp-iframe-wrap img[alt="*"] {
+    background-image: none !important;
+    background: linear-gradient(to bottom, #c5d3f3 0%,#1849ab 52%,#183797 99%) !important;
+    border: 1px solid #005ca7 !important;
+    margin-right: 2px !important;
+    border-radius: 2.3px !important;
+    height: 7px !important;
+    padding-right: 7px !important;
+    width: 0 !important;
+}
+.postdetails img[alt="-----"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340231/c1a1772e-290d-11e7-8368-fd10f8bc4228.png') !important;
+    height: 10px !important;
+    padding-right: 50px !important;
+    width: 0 !important;
+}
+img[style="padding-bottom:2px"] {
+    padding-right: 9px !important;
+    width: 0 !important;
+}
+img[src$="post_snapback.gif"], a[title="Перейти к сообщению"] img {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340124/6ccab9d6-290d-11e7-9433-4b343706525b.png') !important;
+	height: 14px !important;
+	padding-right: 14px !important;
+	width: 0
+}
+img[alt=">N"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340441/6e66824c-290e-11e7-85a8-a6fbded5e96e.png') !important;
+    background-repeat: no-repeat !important;
+    height: 9px !important;
+    padding-right: 9px !important;
+    width: 0 !important;
+}
+td[center] .row2 img {
+    background-image: none !important;
+    width: 0 !important;
+}
+img[alt="PM"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339519/b155bfda-290b-11e7-978d-06142bc8c2e2.png') !important;
+	height: 21px !important;
+	padding-right: 57px !important;
+	width: 0 !important
+}
+img[alt="@"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340222/bb47ee58-290d-11e7-932a-e4f6c487a52d.png') !important;
+    background-repeat: no-repeat !important;
+	height: 10px !important;
+	padding-right: 15px !important;
+	width: 0 !important
+}
+img[alt="Показать объявления"],a[href$="0);"] img {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340756/636da8ec-290f-11e7-8866-d26d75bb5692.png') !important;
+	height: 10px !important;
+	padding-right: 10px !important;
+	width: 0 !important
+}
+img[alt="Скрыть объявления"],a[href$="1);"] img {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340757/636fd040-290f-11e7-9d2a-422fc3abe9f0.png') !important;
+	height: 10px !important;
+	padding-right: 10px !important;
+	width: 0 !important
+}
+a[title="К последнему сообщению"] img {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339974/fbb6cc80-290c-11e7-997f-08971187a449.png') !important;
+    height: 10px !important;
+    padding-right: 10px !important;
+    width: 0 !important;
+}
+#navstrip img[alt$=">"], img[src$="menu_item.gif"] {
+    background-image: none !important;
+    width: 0 !important;
+}
+img[title="Открыть меню"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340620/02aca5a8-290f-11e7-9ab8-25bd117bd379.png') !important;
+    height: 5px !important;
+    padding-right: 7px !important;
+    width: 0 !important
+}
+#ipbwrapper .gobutton, #ipb-tl-search_menu .button {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340642/15dbc794-290f-11e7-8796-6d5424994ac3.png') !important;
+    background-repeat: no-repeat !important;
+    background-color: transparent !important;
+    border: none !important;
+    margin-top: 5px !important;
+    height: 20px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+#ipbwrapper .gobutton:focus, #ipb-tl-search_menu .button:focus {
+    outline-width: 0px !important;
+}
+#ips-attach-menu img, #ips-attach-menu0 img, #ips-attach-menu1 img, #ips-attach-menu2 img, #ips-attach-menu3 img {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340521/b19297d6-290e-11e7-8c2c-d4f0a020ba1c.png') !important;
+	height: 16px !important;
+	padding-right: 16px !important;
+	width: 0 !important
+}
+form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(1), form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(2), form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(3) {
+    background-image: none !important;
+    background: #c2cfdf !important;
+}
+form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(1) {
+    height: 11px !important;
+	padding-right: 4px !important;
+	width: 0 !important;
+    border-radius: 2px 0 0 2px !important                                       
+}
+form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(2) {
+    height: 0px !important;
+	padding-top:11px !important;
+}
+form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(3) {
+    height: 11px !important;
+	padding-right: 4px !important;
+	width: 0 !important;
+    border-radius: 0 2px 2px 0 !important
+}
+img[src$="thread_closed"] {
+	background-image: url('https://cloud.githubusercontent.com/assets/27365640/25339537/bb10e05e-290b-11e7-8e96-440ae22b1a23.png') !important;
+	height: 23px !important;
+	padding-right: 98px !important;
+	margin-left: 2px !important;
+    width: 0 !important;
+}
+
+/* BBCodes */
+img[alt="Жирный"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340924/e3764f80-290f-11e7-84f8-3ea714577141.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Курсив"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341055/4a9aa47c-2910-11e7-9a58-f12832cf1eb5.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Подчёркивание"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341065/4ad37892-2910-11e7-97df-234f7db1185d.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Зачёркивание"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341060/4abae980-2910-11e7-9d62-28c5cafc5342.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Подстрочный текст"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341064/4ad0c75a-2910-11e7-91db-b4b175940718.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Надстрочный текст"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341063/4acfdc32-2910-11e7-8003-3b080cc9eabc.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Влево"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341052/4a9722d4-2910-11e7-9fdd-441302c88e33.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="По центру"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340921/e3752a2e-290f-11e7-9c13-5455a4cf73b8.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Вправо"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341057/4ab2171a-2910-11e7-870f-a919fa39a877.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Вставить гиперссылку"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341066/4ad66fde-2910-11e7-9a1b-6bb6bc83a5df.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Вставить цитату"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341059/4ab5c612-2910-11e7-9841-63babb91d7d5.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Оффтоп"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341056/4ab107d0-2910-11e7-95a9-e64a5cb928cb.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Вставить код"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341053/4a974a2a-2910-11e7-8588-98bf9ed37b0a.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Сделать текст сворачиваемым"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341062/4acef452-2910-11e7-85c6-afcf5f247c0f.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Сделать текст сворачиваемым и добавить заголовок"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341061/4abaf650-2910-11e7-9251-052c7fc94631.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Скрытый текст"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341050/4a9627a8-2910-11e7-9014-9d8066d9b5e6.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Вставить список"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341051/4a96e698-2910-11e7-98a6-f80a9f9db6d5.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Вставить нумерованный список"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341058/4ab38488-2910-11e7-831a-80e9e7313eb4.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Удалить все BB коды"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25341054/4a9a9c0c-2910-11e7-83f3-409d82e88236.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Помощь по ББ кодам"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340922/e3756fa2-290f-11e7-9a5b-821ecb98c0cb.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Уменьшить форму ответа"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340923/e3760fd4-290f-11e7-889f-ef53fa3f6d46.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Увеличить форму ответа"] {
+    background-image: url('https://cloud.githubusercontent.com/assets/27365640/25340920/e3750954-290f-11e7-84a5-23b207240a55.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
