@@ -3,6 +3,9 @@
 ***
 Домашняя страница: [userstyles.org](https://userstyles.org/styles/138409/4pda-impreza)
 ***
+### Скриншоты
+![site](https://raw.githubusercontent.com/LEKS2FAST/4PDA-Style-Impreza/master/Screenshots/site.png) ![forum](https://github.com/LEKS2FAST/4PDA-Style-Impreza/blob/master/Screenshots/forum.png?raw=true) ![topic](https://github.com/LEKS2FAST/4PDA-Style-Impreza/blob/master/Screenshots/topic.png?raw=true) ![profile](https://github.com/LEKS2FAST/4PDA-Style-Impreza/blob/master/Screenshots/profile.png?raw=true)
+***
 ### Changes:
 24.04.2017:
 - Графика залита на Гитхаб.
