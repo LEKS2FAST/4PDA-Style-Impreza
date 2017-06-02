@@ -1,0 +1,1535 @@
+﻿@-moz-document domain("4pda.ru") {
+/* Forum */
+body {
+    background: black !important;
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Wallpapers/wall2.png') !important;
+    background-attachment: fixed !important;
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+    color: #ffffff !important;
+    text-shadow: 2px 1px 1px black !important;
+}
+#logostrip {
+    height: 145px;
+    background-color: transparent;
+}
+#logostrip img {
+	background: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/Logo.png') !important;
+	height: 150px !important;
+	padding-right: 124px !important;
+	width: 0 !important;
+}
+.row1[style="padding: 4px;"] a span:hover {
+    opacity: 0.8 !important;
+}
+::-webkit-input-placeholder {
+    color: #FFF9C4 !important;
+}
+::-moz-placeholder {
+    color: #FFF9C4 !important;
+    opacity: 1 !important;
+}
+.borderwrap, .borderwrapm {
+    background: rgba(0, 0, 0, 0.6) !important;
+    border: 1px solid #dc002a !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+}
+table.ipbtable, tr.ipbtable, td.ipbtable {
+    background: transparent !important;
+    color: #fff9c4 !important;
+}
+td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbuttonrow1 {
+    background: transparent !important;
+    border: 0px solid #fff !important;
+}
+.formtable td.formtitle, .formsubtitle {
+    background: transparent !important;
+}
+.formsubtitle {
+    border: 0 !important;
+    color: #fadf87 !important;
+}
+.row1 {
+    background: transparent !important;
+}
+.row2 {
+    background: transparent !important;
+}
+a:link, a:visited, a:active {
+    color: #FADF87 !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color: white !important;
+}
+.forumdesc, .forumdesc a:link, .forumdesc a:visited, .forumdesc a:active {
+    color: #f9ca55 !important;
+}
+.forumdesc a:hover {
+    color: #D3374C !important
+}
+.copyright {
+    background: rgba(0,0,0,0.7) !important;
+    padding: 7px !important;
+    border-radius: 5px !important;
+}
+.pagelink, .pagelinklast, .pagecurrent, .minipagelink, .minipagelinklast {
+    border: 0px solid #183797 !important;
+    border-radius: 3px !important;
+    font-weight: bold;
+}
+.pagelink, .pagelinklast {
+	background: transparent !important;
+    color: white !important;
+}
+.pagecurrent {
+    background: #DC002A !important;
+    color: white !important;
+    padding: 3px 4px 3px 4px !important;
+    border: 1px solid rgba(0, 0, 0, 0.4) !important
+}
+.minipagelink, .minipagelinklast {
+    background: transparent !important;
+}
+.minipagelinklast {
+    background: rgba(255, 255, 255, 0.15) !important;
+    padding: 2px 3px 2px 3px !important;
+}
+#gfooter {
+    background: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 5px !important;
+}
+.formsubtitle > .forminput,  select {
+    background: #DC002A  !important;
+    border: 1px solid #e8513b !important;
+    color: #FFF9C4 !important;
+    border-radius: 3px!important;
+    outline: none !important;
+}
+.input-warn, .input-green, .input-checkbox, input, textarea {
+    background: rgba(0, 0, 0, 0.35) !important;
+    border: 1px solid rgba(249, 202, 85, 0.4) !important;
+    color: #FFF9C4 !important;
+    border-radius: 3px!important;
+}
+.textarea, .searchinput, .button, button.editor_button, .gobutton, .btn {
+    background: linear-gradient(to top, #DC002A 45%, #DCDCDC 100%) !important;
+    border: solid 1px #ff8100 !important;
+    color: #fadf87 !important;
+    border-radius: 3px !important;
+}
+.btn:hover {
+    background: linear-gradient(to top, #FFBE2A 45%, #DCDCDC 100%) !important;
+    border-color: #d3374c !important;
+    color: #900 !important;
+}
+.btn.white {
+    background: white !important;
+    border-color: white !important;
+    color: black !important;
+}
+.btn.red {
+    background: #FADF87 !important;
+    border-color: #FADF87 !important;
+    color: #dc002a !important;
+}
+.btn.red:hover, .btn.red:focus, .btn.red:active, .btn.red.active, .btn.blue:focus, .btn.blue:active, .btn.blue.active {
+    background: #D3374C !important;
+    border-color: #D3374C !important;
+    color: #f9ca55 !important;
+}
+.btn.blue {
+    background: #DC002A !important;
+    border-color: #dc002a !important;
+    color: #f9ca55 !important;
+}
+.btn.blue:hover {
+    background: #f9ca55 !important;
+    border-color: #f9ca55 !important;
+    color: #DC002A !important;
+}
+.borderwrap h3, .maintitle, .maintitlecollapse {
+    background: none !important;
+    border: 0px !important;
+    background-color: transparent !important;
+    border-radius: 5px !important;
+}
+.borderwrap p {
+    background: transparent !important;
+    border: 0px solid transparent !important;
+}
+.errorwrap {
+    background: rgba(255,0,0,0.1) !important;
+    border: 2px solid rgba(255,0,32,0.2) !important;
+    border-radius: 5px !important;
+}
+.errorwrap h4 {
+    background: rgba(255,0,0,0.2) !important;
+    border: 0px solid #dc002a !important;
+    color: #ffffff !important;
+}
+.errorwrap p {
+    color: #fff !important;
+}
+.popupmenu-category {
+    background: transparent !important;
+    border-top: 0px solid #f9ca55;
+    border-bottom: 0px solid #F9CA55 !important;
+    color: #fadf87 !important
+}
+.popupmenu, .popupmenu-new {
+    background: rgba(0, 0, 0, 0.8) !important;
+    border: 1px solid #ff8100 !important;
+    border-radius: 5px !important;
+}
+.upopupmenu, .upopupmenu-new {
+    background-color: rgba(0,0,0,0.8) !important;
+    border: 1px solid #F9CA55 !important;
+    border-radius: 5px !important;
+}
+.upopupmenu-item {
+    border-bottom: 0px solid #F9CA55 !important;
+}
+.popmenubutton-new {
+    background-color: rgba(0, 0, 0, 0.64) !important;
+}
+.popmenubutton-new, .popmenubutton {
+    background-color: #9e0221 !important;
+    border: 1px solid #ff8100 !important;
+    border-radius: 3px !important;
+}
+.popmenubutton-new {
+    background-image: none !important;
+}
+.popupmenu-item {
+    border-bottom: 0px solid #F9CA55 !important;
+}
+#page-jump-1_menu, #page-jump-2_menu {
+    background: rgba(0,0,0,0.9) !important;
+}
+#userlinks, #userlinksguest {
+    background: rgba(220, 0, 42, 0.8) !important;
+    border: 1px solid rgba(249, 202, 85, 0.5) !important;
+    border-radius: 4px !important;
+}
+#navstrip {
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #000000 !important;
+}
+#fo_-1 .iptable div {
+	border: 0px solid white !important;
+}
+#submenu {
+    color: #fadf87 !important;
+}
+.activeusers {
+    background: transparent !important;
+    /*border-radius: 5px !important;*/
+    border: 0px solid #dc002a !important;
+}
+.lastaction {
+    color: #ffffff !important;
+}
+body > ul.tbl.main > li > div {
+    border: 1px solid #dc002a !important;
+    background: rgba(0,0,0,0.7) !important;
+    border-radius: 7px !important;
+}
+ul.tbl.head {
+    background: #dc002a !important;
+    border-radius: 5px 5px 0 0 !important;
+}
+table th, .borderwrap table th, .subtitle, .subtitlediv, .postlinksbar {
+    background: none !important;
+    border: 1px solid rgba(249, 202, 85, 0.4) !important;
+    color: #ffffff !important;
+    background-color: #dc002a !important;
+    border-radius: 4px !important;
+}
+.toplinks span {
+    background: rgba(0, 0, 0, 0.7) !important;
+    border: 0px solid #DC002A !important;
+    color: #DC002A !important;
+    border-radius: 4px 4px 0 0 !important;
+}
+.thin {
+    border-top: 1px solid #f9ca55 !important;
+}
+.plainborder, .tablefill, .tablepad {
+    background: rgba(0, 0, 0, 0.7) !important;
+    border-radius: 4px !important;
+    border: 1px solid #dc002a !important;
+}
+hr.sfr {
+    border-top: dotted 1px #dc002a !important;
+}
+.desc {
+    color: #fea !important;
+}
+.darkrow1 {
+    background: #dc002a !important;
+    color: #ffffff !important;
+    border-radius: 4px !important;
+    border: 1px solid rgba(249, 202, 85, 0.4) !important;
+}
+#ShowUsersInOnline_head, #forum-members-birthdays-index-loader > td {
+    background: #DC002A !important;
+    border-radius: 4px !important;
+    border: 1px solid #e8513b !important;
+}
+#go_1 {
+    background: rgba(0,0,0,0.55) !important;
+    border: 1px solid #dc002a !important;
+    padding: 5px !important;
+    border-radius: 5px !important;
+}
+#go_1 > h4, #gc_1 > h4 {
+    background: transparent !important;
+    border: 0px solid #dc002a !important;
+    color: #ffffff !important;
+    border-radius: 3px !important;
+}
+#gc_1 {
+    background: #dc002a !important;
+    border: 1px solid #dc002a !important;
+    border-radius: 4px !important;
+}
+:focus {
+    outline-color: #dc002a !important;
+    outline-width: 2px !important;
+    border-radius: 3px !important;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 0;
+  -webkit-text-fill-color: #FFF9C4 !important;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,174,255,0.04) 50%,rgba(255,255,255,0) 51%,rgba(0,174,255,0.03) 100%);  
+}
+.subtitlediv {
+    border: 1px solid #e8513b !important
+}
+.dw-fname, .dw-fsize, .dw-fdwlink, .dw-descr{
+    text-shadow: none !important;
+}
+.borderwrap.read .row2, .borderwrap.read .post2, .borderwrap.read .post1, .borderwrap.read td.formbuttonrow {
+    background-color: rgba(0, 0, 0, 0.35) !important;
+}
+.ac_over {
+    background: #dc002a !important;
+    border-radius: 2px !important;
+}
+.ac_results {
+    border: solid 1px #dc002a !important;
+    background: rgba(0,0,0,0.7) !important;
+}
+#footer {
+    background: transparent !important;
+}
+.footer-panel, .footer-nav {
+    background: rgba(0,0,0,0.5) !important;
+}
+.footer-nav .f-note, .footer-panel {
+    color: #fadf87 !important;
+}
+
+/* UCP */
+form > .borderwrap[style="padding:1px"] {
+    background: transparent !important;
+    border: none !important;
+}
+div.pp-title[style="height:20px"] {
+    background: rgba(191, 0, 37, 0.75) !important;
+    border-radius: 4px !important;
+    margin-bottom: 3px !important;
+    border: 1px solid #dc002a !important;
+}
+.pp-tiny-text {
+    color: #dadada !important;
+}
+.usercp_menu {
+    background-color: transparent !important;
+    border: 1px solid #d5d18a !important;
+}
+.usercp_menu, .usercp_menu_out {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/ucp_menu.png') !important;
+    color: #FADF87 !important;
+    border: 0px solid #e91e63 !important;
+}
+#ucpmenu, #ucpcontent {
+    background: rgba(0,0,0,0.6) !important;
+    border: 1px solid #DC002A !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+}
+.ucp-vline {
+    border-left: 0px solid #183797 !important;
+}
+.pp-title {
+    background: none !important;
+    border-bottom: 1px solid transparent !important;
+    background-color: transparent !important;
+}
+.pp-contentbox-back {
+    background-color: transparent !important;
+}
+.pp-contentbox-entry, .pp-contentbox-entry-noheight, .pp-contentbox-entry-noheight-mod, .pp-contentbox-entry-noheight-sel {
+    background-color: rgba(220, 0, 42, 0.4) !important;
+    border: 1px solid rgba(0, 0, 0, 0.35) !important;
+    border-radius: 5px !important;
+}
+fieldset {
+    border-width: 0px !important;
+}
+
+/* Text Colors */
+span[style="color:royalblue"] {
+	color: #59b9f9 !important;
+}
+span[style="color:indigo"] {
+	color: #c472ff !important;
+}
+span[style="color:orangered"] {
+	color: #ff7a18 !important;
+}
+span[style="color:#0000ff"] {
+	color: #7193fb !important;
+}
+span[style="color:#FF0000"], span[style="color:red"] {
+	color: #ff7070 !important;
+}
+span[style$="color:crimson"], span[style="color: #6b1e2c;"] {
+    color: #ff5272 !important;
+}
+span[style="color:#ff6600"] {
+	color: #ff8f44 !important;
+}
+span[style="color:blue"], span[style="color:mediumblue"], span[style="color:#19007a"], span[style="color:darkblue"], span[style="color:DarkBlue"] {
+	color: #0087ff !important;
+}
+span[style="color:#6060ff"] {
+	color: #9393ff !important;
+}
+span[style$="color:#000000"], span[style="color:black"], [style="font-weight:bold;color:#222222;"], font[style="font-size:9px;color:gray;"], span[style="color:gray"], .signature {
+	color: #ccc !important;
+}
+span[style="color:maroon"] {
+	color: #ce4e4e !important;
+}
+span[style="color:#008273"] {
+	color: #00c5af !important;
+}
+span[style="color:green"] {
+	color: #00b700 !important;
+}
+span[style="color:darkred"] {
+	color: #f52828 !important;
+}
+span[style="color:#3d009a"] {
+	color: #6e41b3 !important;
+}
+span[style="color:teal"] {
+	color: #00bdbd !important;
+}
+span[style$="color:purple"], span[style$="color:#CF0CA6"], span[style$="color:Purple"], span[style$="color:#800080"], span[style="color:#950080"] {
+    color: magenta !important;
+}
+span[style$="color:blue"] {
+    color: #5974ff !important;
+}
+span[style$="color:#BC33FF"], span[style$="color:#B100BF"] {
+    color: #d57fff !important;
+}
+span[style="color:Indigo"] {
+    color: #ff28ff !important;
+}
+
+/* Topic */
+.ipbtable[cellspacing="1"][data-post] {
+    background: rgba(0, 0, 0, 0.4) !important;
+    border-radius: 5px !important;
+    border: 1px solid rgba(255, 154, 0, 0.2) !important;
+    margin-bottom: 6px !important;
+}
+td[id^="ph-"] {
+    background: transparent !important;
+}
+.post1, .bg1, .post2, .bg3 {
+    background: transparent !important;
+}
+.catend {
+    display: none !important;
+}
+.post-block.quote > .block-title, .post-block.code > .block-title, .post-block.hidden > .block-title, .post-block.spoil > .block-title, .post-block.quote > .block-body, .post-block.code > .block-body, .post-block.hidden > .block-body, .post-block.spoil > .block-body {
+    background: none !important;
+}
+.post-block {
+    border: none !important;
+}
+.post-block.quote > .block-title, .post-block.code > .block-title, .post-block.hidden > .block-title, .post-block.quote > .block-body, .post-block.hidden > .block-body {
+    color: #fadf87 !important;
+}
+.post-block.quote {
+    background: rgba(220, 0, 42, 0.3) !important;
+    border: 1px solid rgba(220, 0, 42, 0.35) !important;
+    border-radius: 4px !important;
+}
+.post-block.code {
+    background: rgba(120, 201, 255, 0.25) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 4px !important;
+}
+.post-block.code > .block-body {
+    color: white !important;
+}
+.post-block.hidden {
+    background: rgba(204, 204, 204, 0.3) !important;
+    border-radius: 4px !important;
+}
+.post-block.quote > .block-title {
+	background: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/quotes.png') no-repeat right !important;
+}
+.post-block.code > .block-title {
+	background: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/code.png') no-repeat right !important;
+}
+.post-block.spoil.close {
+    background: rgba(220, 0, 42, 0.7) !important;
+    color: white !important;
+    border-radius: 3px !important;
+}
+.post-block.spoil > .block-title * {
+    color: inherit !important;
+} 
+.post-block.spoil > .block-title {
+    color: white !important;
+}
+.post-block.spoil > .block-body {
+    color: #eaf3ff !important;
+}
+.post-block.spoil {
+    background: rgba(250, 223, 135, 0.1) !important;
+    border: 1px solid rgba(255, 129, 0, 0.5) !important;
+    border-radius: 5px !important;
+}
+.post-block.spoil.open .open {
+    background: rgba(220, 0, 42, 0.2) !important
+}
+.post-block.spoil.open .open .open {
+    background: rgba(249, 202, 85, 0.15) !important
+}
+.post-block.spoil.open .open .open .open {
+    background: rgba(220, 0, 42, 0.25) !important
+}
+#lbClose.grey {
+    background: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/X.png') no-repeat !important;
+}
+#lbOuterContainer.grey, #lbDetailsContainer.grey {
+    border: none !important;
+}
+#lbDetailsContainer {
+    border-radius: 0 0 5px 5px !important;
+}
+#lbOuterContainer {
+    border-radius: 5px 5px 0 0 !important;
+}
+.resized-linked-image {
+    border: none !important;
+    border-radius: 5px !important;
+    background-color: rgba(255, 255, 255, 0.29) !important;
+    color: #ffffff !important;
+}
+.dw-fname, .dw-fsize, .dw-fdwlink, .dw-descr, .dw-fdwlink a {
+    text-shadow: none !important;
+    color: black !important;
+}
+td.formbuttonrow, .pformstrip, .borderwrap p.formbuttonrow, .borderwrap p.formbuttonrow1 {
+    background: rgba(0,0,0,0.0) !important;
+    border: 0px solid #fff !important;
+    border-top: 1px solid transparent !important;
+}
+.bar, .barb, .barc {
+    background: rgba(34, 42, 51, 0) !important;
+    border: 0px solid #2f3d2c !important;
+}
+.post-block.tbl {
+    border: 0px solid currentColor !important;
+    background: none !important;
+}
+.post-block.tbl > * {
+    color: #e3f2fd !important;
+}
+.post-block.tbl > .block-title {
+    border-radius: 5px 0 0 5px !important;
+}
+.post-block.mod > .block-body, .post-block.ex > .block-body, .post-block.cur > .block-body {
+    border-radius: 0px 5px 5px 0px !important;
+}
+.post-block.mod > .block-title, .post-block.mod > .block-body {
+    background: rgba(67, 115, 195, 0.55) !important
+}
+.post-block.ex > .block-title, .post-block.ex > .block-body {
+    background: rgba(219, 20, 58, 0.55) !important;
+}
+.post-block.cur > .block-title, .post-block.cur > .block-body {
+    background: rgba(0, 150, 136, 0.55) !important
+}
+.post-block.quote > .block-title:before {
+    content: 'Цитата: ' !important;
+}
+.post-block.quote > .block-title:after {
+    content: '' !important;
+}
+.post-edit-reason {
+    background: rgba(249, 202, 85, 0.1) !important;
+    color: #fea !important;
+    border: 0px solid rgba(249, 202, 85, 0.1) !important;
+    border-radius: 3px !important;
+}
+#ipbwrapper div.borderwrap form table.ipbtable tbody tr td.row1 div.borderwrap {
+    background: rgba(220, 0, 42, 0.2) !important
+}
+#ipbwrapper div.borderwrap form table.ipbtable tbody tr td.row1 div.borderwrap div.row1, #ipbwrapper div.borderwrap div.row1, .ipbtable[cellspacing="1"] td[colspan="3"].row1 {
+    background: transparent !important;
+}
+.postdetails center font[color="green"], .postdetails center font[color="red"] {
+    color: transparent !important; 
+}
+.postdetails center font[color="green"]:after {
+    background: #4CAF50 !important;
+    top: 0.5rem !important;
+    display: block !important;
+    border-radius: 0.2rem !important;
+    width: 3.2rem !important;
+    height: 0.95rem !important;
+    border: 1px solid green !important;
+    text-shadow: 1px 1px 1px black !important;
+    margin: -1rem !important;
+    position: relative !important;
+}
+.postdetails center font[color="red"]:after {
+    background: #dc002a !important;
+    top: 0.5rem !important;
+    display: block !important;
+    border-radius: 0.2rem !important;
+    width: 3.2rem !important;
+    height: 0.95rem !important;
+    border: 1px solid #7b0000 !important;
+    text-shadow: 1px 1px 1px black !important;
+    margin: -1rem !important;
+    position: relative !important;
+}
+.postdetails center font[color="green"]:after {
+    content: "Online" !important;
+    color: #f7f7f7 !important;
+}
+.postdetails center font[color="red"]:after {
+    content: "Offline" !important;
+    color: #fadf87 !important;
+}
+
+/*Postingform*/
+.ed-wrap .ed-panel {
+    background: none !important;
+    background-color: #f9ca55 !important;
+}
+.ed-wrap .ed-p-textarea {
+    background: #dc002a !important;
+}
+.ed-wrap .ed-vtoggle-normal, .ed-wrap .ed-vtoggle-hover, .ed-wrap .ed-vtoggle-down {
+    background-color: rgba(0, 0, 0, 0.29) !important;
+    border-color: #dc002a !important;
+    color: #f9ca55 !important;
+    border-radius: 4px 0 0 4px;
+}
+.ed-wrap div.ed-bbcode-normal, .ed-wrap div.ed-bbcode-hover, .ed-wrap div.ed-bbcode-down, .ed-wrap .ed-panel-title {
+    color: black !important;
+}
+.ed-wrap .ed-bbcode-hover {
+    background-color: #dc002a !important;
+    border: solid 1px #dc002a !important;
+    border-radius: 2px !important;
+}
+.ed-wrap .ed-bbcode-down {
+    background-color: #FB5575 !important;
+    border: solid 1px #dc002a !important;
+    border-radius: 2px !important;
+}
+.ed-wrap div.ed-bbcode-hover {
+    background: #dc002a !important;
+    border-radius: 2px !important;
+}
+.darkrow3 {
+    background: rgba(0,0,0,0.0) !important;
+    color: #fff !important;
+}
+body[style="background:transparent;"], div[style="padding:4px; background-color: #F0F7FF;"] {
+	background: transparent !important;
+}
+td[style="border:solid 1px white;"] {
+    border: solid 1px #dc002a !important;
+    border-radius: 0 4px 4px 0px;
+}
+.attach-menubutton {
+    background-image: none !important;
+    background-color: #dc002a !important;
+}
+.attach-popupmenu, .attach-menubutton {
+   background-color: #dc002a !important;
+    border: 1px solid #dc002a !important;
+    color: #f9ca55 !important;
+    border-radius: 2px !important;
+}
+.attach-menu-row-over {
+    background-color: #f9ca55 !important;
+    color: black !important;
+    border-radius: 2px !important;
+}
+#ed-0_ap > table {
+	border-bottom: solid 0px !important;
+}
+#ed-0_ap, #ed-1_ap, #ed-2_ap, #ed-3_ap, #ed-4_ap, #ed-5_ap {
+	border-top: 0.0px solid !important;
+	border-bottom: 0.0px solid !important;
+	border-left: 0.0px solid !important;
+	border-right: medium none !important;
+}
+#ed-1_ap > table, #ed-2_ap > table, #ed-3_ap > table, #ed-4_ap > table, #ed-5_ap > table {
+	border-bottom: solid 0px white !important;
+}
+.check_list_div {
+    background: transparent !important;
+    border-color: #dc002a  !important;
+    border-radius: 4px !important;
+}
+        
+/* Profile */
+body > div > div > div > div > div > form > ul > li > div > span > i {
+    color: #f9ca55 !important;
+}
+body > div > div > div > div > div > form > ul > li {
+    background: rgba(0,0,0,0.6) !important;
+    border: 1px solid #dc002a !important;
+    border-radius: 7px !important;
+}
+.social-link li:after, .content-box ul li:before, .content-box .item-list li:before {
+    background: #dc002a !important;
+    border-radius: 3px !important;
+}
+.btn-link {
+    padding: 0px 0px 0px 5px !important;
+    color: #f9ca55 !important;
+    background: transparent !important;
+    border: none !important;
+}
+.u-note:after {
+    background:#dc002a !important;
+    color: #fadf87 !important;
+}
+.u-note {
+    border-top: 1px solid #dc002a !important;
+    border-bottom: 1px solid #dc002a !important;
+}
+.info-list .warn-btn {
+    background: #dc002a !important;
+    border-radius: 2px !important;
+}
+
+/* Nav */
+#nav ul li > a:hover, #nav ul li:not([class=""]) a, .slider-active {
+    background: #dc002a !important;
+}
+#header .h-frame {
+    background: rgba(0,0,0,0.6) !important;
+}
+.events-count {
+    background: #dc002a !important;
+}
+.slider-content .meta-box {
+    background: #f9ca55 !important;
+    border: 1px solid #dc002a !important;
+}
+.slider-content {
+    border: 1px solid #dc002a !important;
+    background: rgba(0, 0, 0, 0.75) !important;
+    border-radius: 0 0 4px 4px !important;
+    border-width: 0 1px 1px 1px !important;
+}     
+.slider-content .article-box h3 {
+    background: #dc002a !important;
+    padding: 4px !important;
+    border-radius: 3px !important;
+}
+.slider-content .meta-box a:not(.active):not(:hover) {
+    border-radius: 3px !important;
+}
+.slider-content .meta-box a:hover, .slider-content .meta-box a.active {
+    color: #ffffff !important;
+    background: rgba(0,0,0,0.2) !important;
+    border-radius: 3px !important;
+}
+.slider-content .meta-box a {
+    background: #dc002a !important;
+}
+.slider-content:after {
+    background: #f9ca55 !important;
+}
+.search-form input {
+	background: transparent !important;
+	border: 0px !important
+}
+.search-form,.drop-search .search-form .area {
+	background: transparent !important;
+    border-bottom: 2px solid #f9ca55 !important;
+}
+.btn-search {
+	color: #f9ca55 !important;
+    background: transparent;
+}
+.btn-search:hover {
+	color: #dc002a !important;
+}
+.i-code.open > a, .i-code:hover > a {
+    color: #ffffff !important;
+}
+.i-code.open, .i-code:hover {
+    background: transparent !important;
+}
+.i-code .dropdown-menu {
+    border: solid 2px #f9ca55 !important;
+    background: rgba(0,0,0,0.7) !important;
+}                  
+.icon-text-overlay.blue {
+    background-color: #dc002a !important;
+}
+.overlay-block .overlay-orange {
+    background: #dc002a !important;
+}
+#nav a {
+    font-weight: bold !important;
+}
+
+/* QMS */
+#events-count {
+    background: #dc002a !important;
+}
+#events-wrapper {
+    background: rgba(0,0,0,0.7) !important;
+    border: solid 1px #dc002a !important;
+}
+#events-list > a {
+    border-bottom: solid 0px #dc002a !important;
+}
+#events-list > a:hover {
+    background: rgba(0,0,0,0.5) !important;
+}
+.events-popup {
+    background: rgba(0,0,0,0.6) !important;
+    border: 1px solid #f9ca55 !important;
+}
+#nav .title span {
+    color: #fadf87 !important;
+    background: #dc002a !important;
+    border: solid 2px #dc002a !important;
+    border-radius: 4px !important;
+}
+.header {
+	background: transparent !important
+}
+#body, .list-group .list-group-item, .navbar {
+    background: rgba(0,0,0,0.5) !important;
+    border-bottom: 1px solid #F9CA55 !important;
+}
+#create-thread-div-form > form > input.form-input.block, #create-thread-div-form > form > textarea {
+    border: 1px solid #f9ca55 !important;
+}
+ .list-group-item.active,.list-group-item.active:hover,.list-group-item.active:focus {
+	background: #dc002a !important;
+}
+a.list-group-item.text-overflow.active {
+    color: white !important;
+}
+.thread-list .our-message {
+    color: #fea !important;
+}
+.thread-list .date {
+    border-top: 0px dotted #868686 !important;
+    color: black !important;
+}
+.thread-list .date .text {
+    top: -4.5px !important;
+    background: #f9ca55 !important;
+    padding: 5px 12px !important;
+}
+.thread-list .time {
+    color: #b3b3b3  !important;
+}
+.list-group .list-group-item .bage, .list-group .list-group-item .icon-close {
+    background: none !important;
+}
+.list-group .list-group-item {
+    border-bottom: 0px !important;
+}
+.form-bg {
+    background: rgba(0,0,0,0.6) !important;
+}
+.msgbox.error {
+    color: white !important;
+}
+.dropdown-menu {
+	background-color: rgba(0,0,0,0.6) !important;
+	border: 2px solid #f9ca55 !important;
+    border-radius: 5px !important;
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus {
+	background-color: #f9ca55 !important;
+    color: #dc002a !important;
+}
+.dropdown-menu .divider {
+    height: 0px !important;
+    margin: 5px 0 !important;
+}
+.toggle-node-btn {
+    background: #dc002a !important;
+    color: #f9ca55 !important;
+    border-radius: 4px !important;
+    margin: 17px -5px !important;
+}
+.bb-codes {
+    background: rgba(220, 0, 42, 0.4) !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+}
+#body.body div.body-tbl div svg {
+    display: none !important;
+}
+.icon-close:before {
+    color: #f9ca55 !important;
+}
+.footer {
+    border-top: 0px solid #F9CA55 !important;
+    background: rgba(0,0,0,0.7) !important;
+    color: #fadf87 !important;
+}
+.body-thread-form {
+    border-top: 1px solid #F9CA55 !important;
+}
+#contacts {
+    border-right: 1px solid #F9CA55 !important;
+}
+
+/* Site */
+body > div > div > div > div > div > ul > li {
+    background: rgba(0,0,0,0.7) !important;
+    border: 0px solid #dc002a !important;
+    border-radius: 7px !important;
+}
+body > div > div > div > div > div > section > aside > div:nth-child(n), body > div > div > div > div > div > section > aside > div > div:nth-child(n) {
+    display: none !important;
+}
+div div div div section, div#wrapper div div div div section {
+    background: transparent !important;
+    border: 0px solid #dc002a !important;
+}
+#header + div {
+    background: none !important;
+}
+.post {
+    background: rgba(0,0,0,0.75) !important;
+    border: 1px solid #dc002a !important;
+    border-radius: 8px !important;
+}
+.post p {
+    color: #ffffff !important;
+}
+.post .visual {
+    border: none !important;
+}
+.post .visual img {
+    border-radius: 7px 0 0 7px !important;
+}
+.post .v-panel {
+    background: rgba(0,0,0,0.6) !important;
+    border-radius: 0 0 0 7px !important;
+}
+.post .btn-more {
+    background: #f9ca55 !important;
+    color: black !important;
+    text-shadow: none !important;
+}
+.post .v-panel .v-count, .product-detail .more-box .number, .product-detail .more-box .count-autor, .poll-list .slider .value, .v-panel .v-count {
+    background: #dc002a !important;
+}
+.bg-shadow {
+    background: none !important;
+}
+.testimonials-list, .comment-box .comment-list, .comment-box .comment-list .karma a, .comment-box .comment-list .karma [data-karma-act] {
+    color: #d6d6d6 !important;
+    text-shadow: 2px 2px 1px black !important;
+}
+.container {
+    border: 1px solid #dc002a !important;
+    background: rgba(0,0,0,0.7) !important;
+    border-radius: 7px !important;
+}
+.product-detail {
+    background: transparent !important;
+    border-bottom: 1px solid #dc002a !important;
+}
+.product-detail .photo, .search-list .photo {
+    border-right: 0px solid #dc002a !important;
+}
+.product-detail .photo img {
+    border-radius: 7px 0 0 0 !important;
+}
+.content-box {
+    color: #eaeaea !important;
+}
+.content-box blockquote {
+    border-left: 24px solid #dc002a !important;
+}
+.content-box blockquote:before {
+    color: #fadf87 !important;
+}
+.page-nav.box, .comment-box, .search-box, .search-list li {
+    background: rgba(0,0,0,0.6) !important;
+    border: 1px solid #dc002a !important;
+    border-radius: 7px !important;
+}
+.comment-box .comment-list .karma .num-wrap, .comment-box .comment-list .karma .num {
+    background: rgba(0,0,0,0.45) !important;
+}
+.comment-box .heading, .box-title {
+    border-bottom: 1px solid #dc002a !important;
+}
+.comment-box .comment-list .h-meta {
+    color: #fadf87 !important
+}
+.mlinks, .mlinks .mlscreenshots {
+    border: 1px solid #dc002a !important;
+}
+.mlinks .mlhead, .mlinks .mlright {
+    border: 0px solid #dc002a !important;
+}
+.mlinks .sc-btn {
+    background: transparent !important;
+}
+.btn-review-all a, .review-bottom-informer .item {
+    background: #dc002a !important;
+    border-radius: 3px !important;
+}
+.technical-info .even td, .table4site .even td, .technical-info tr:nth-child(even) > td, .table4site tr:nth-child(even) > td {
+    background: #dc002a !important;
+}
+.technical-info td, .table4site td {
+    border: 1px solid #dc002a  !important;
+}
+.review-bottom-informer .item:nth-child(even) {
+    background: rgba(0,0,0,0.7) !important;
+}
+.page-nav li.active a, .page-nav a:hover {
+    background: #dc002a !important;
+    border-radius: 4px !important;
+}
+.gray-row, .black-row, .white-row {
+    background: rgba(0, 0, 0, 0.6) !important;
+    color: #ffffff !important;
+}
+.search-list .photo img {
+    border-radius: 7px 0 0 7px !important;
+}
+.news-list .number {
+    background: #f9ca55 !important;
+    color: #000000 !important;
+    border: 1px solid #dc002a !important;
+    border-radius: 6px !important;
+}
+.content h2 {
+    color: #f9ca55 !important;
+}
+.notice.red {
+    background: #dc002a !important;
+    color: #ffffff !important;
+    border-radius: 5px !important;
+}
+body > div.wr-t > div > div {
+    color: #dc002a !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 5px !important;
+}
+.mlinks .mlcell {
+    border: none !important;
+}
+.some-list li .after, .some-list li:after {
+    background: #dc002a !important;
+}
+.fosy-div {
+    border: solid 1px #dc002a !important;
+    border-radius: 5px !important;
+}
+.post-row-gray, .post-row {
+    background: transparent !important;
+}
+.news-list p a {
+    color: #fff !important;
+}
+.post .list-post-title a, .post h2 a {
+    text-shadow: 2px 2px 1px black !important;
+}
+
+/* DevDB */
+.device-frame {
+    background: rgba(0,0,0,0.6) !important;
+    border: 1px solid #dc002a !important;
+    border-radius: 0 0 7px 7px !important;
+}
+.device-frame .tab-control .active a, .device-frame .compare-table table tr.gray td {
+    background: #dc002a !important;
+}
+.device-frame .tab-control {
+    border-bottom: none !important;
+}
+.device-frame .comment-form .radio input[type="radio"] + span {
+    background: rgba(0,0,0,0) !important;
+}
+.device-frame .filter-form {
+    background: rgba(0, 0, 0, 0.35) !important;
+    border: 1px solid #dc002a !important;
+    border-radius: 7px !important;
+}
+.device-frame .items-list .specifications-row, device-frame .head .version span, .device-frame + .more-info .description, .device-index-header, .device-frame .head .version span, .device-frame .breadcrumbs, .device-frame .compare-table .diff-tbl .d td, .ddb-spec-row {
+    color: #fadf87 !important;
+}
+.device-frame .sort-form-line > li .active {
+    background: #dc002a !important;
+}
+.types-list .type-row {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 50%);
+    border-radius: 7px !important;
+}
+dl.specifications-row.noborder.gray-bg {
+    background: #dc002a !important;
+    padding-left: 5px !important;
+}
+div.content div.specifications-list dl.specifications-row.noborder {
+    padding-left: 5px !important;
+}
+.device-frame .compare-table .compare-head {
+    background: rgba(0,0,0,0.5) !important;
+}
+.device-frame .compare-items-title .compare-box {
+    background: #dc002a !important;
+    border-bottom: 1px solid #dc002a !important;
+}
+.device-frame .compare-table .diff-tbl .b td {
+    color: #ffffff !important;
+}
+.device-frame .item-main {
+    border-bottom: 1px solid #dc002a !important;
+}
+.ddb-wframe {
+    background: rgba(0,0,0,0.8) !important;
+    border: solid 2px #dc002a !important;
+    border-radius: 10px !important;
+}
+.device-frame .letters, .device-frame .filter-form .heading .title [class^="icon-"], .device-frame .filter-form .heading .title [class*=" icon-"] {
+    color: #dc002a !important;
+}
+.device-frame .comment-form h3 {
+    background: #dc002a !important;
+    border-radius: 3px !important;
+}
+
+/* Auth */
+.page {
+    background: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 5px !important;
+}
+#h-wrapper {
+    border: 1px solid #dc002a !important;
+    border-radius: 6px !important;
+    box-shadow: 0px 1px 5px black !important;
+}
+.title {
+    color: #FADF87 !important;
+}
+.input-wrap {
+    background: transparent !important;
+}
+#auth .btn, #chpass .btn, #chmail .btn, #lostpass .btn, #reg > div.row.input-wrap > input, #reg2 .btn {
+    background: #a60020 !important;
+    color: #FFBE2A !important;
+}
+#auth .btn:hover, #chpass .btn:hover, #chmail .btn:hover, #lostpass .btn:hover, #reg > div.row.input-wrap > input:hover, #reg2 .btn:hover {
+    background: #FFBE2A !important;
+    color: black !important;
+}
+
+/* Images */
+.formbuttonrow img[alt="^"]:hover, img[alt="Жалоба"]:hover, img[alt="Вставить ник"]:hover, img[alt="Цитировать"]:hover, img[alt="Редактировать"]:hover, img[alt="Удалить"]:hover, img[alt="Ответить"]:hover, img[alt="Быстрый ответ"]:hover, img[alt="Новая тема"]:hover, .postdetails img[alt="-----"]:hover, img[src$="post_snapback.gif"]:hover, img[alt="PM"]:hover {
+    box-shadow: 0 1px 10px #dc002a !important;
+    border-radius: 4px !important;
+}
+.formbuttonrow img[alt="^"]:active, img[alt="Жалоба"]:active, img[alt="Вставить ник"]:active, img[alt="Цитировать"]:active, img[alt="Редактировать"]:active, img[alt="Удалить"]:active, img[alt="Ответить"]:active, img[alt="Быстрый ответ"]:active, img[alt="Новая тема"]:active, .postdetails img[alt="-----"]:active, img[src$="post_snapback.gif"]:active, img[alt="PM"]:active {
+    box-shadow: 0 1px 8px #FADF87 !important;
+    border-radius: 4px !important;
+}
+.postdetails img[alt="+"]:hover {
+    box-shadow: 0 1px 10px #63a925 !important;
+    border-radius: 8px !important;
+}
+.postdetails img[alt="-"]:hover {
+    box-shadow: 0 1px 10px #dc002a !important;
+    border-radius: 8px !important;
+}
+.postdetails img[alt="+"]:active, .postdetails img[alt="-"]:active {
+    box-shadow: 0 1px 8px #FADF87 !important;
+    border-radius: 8px !important;
+}
+.formbuttonrow img[alt="+"]:hover, .formbuttonrow img[alt="-"]:hover {
+    opacity: 0.8 !important;
+}
+.formbuttonrow img[alt="^"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/UP.png') !important;
+	height: 21px !important;
+	padding-right: 24px !important;
+	width: 0 !important
+}
+img[alt="Жалоба"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/G.png') !important;
+	height: 21px !important;
+	padding-right: 72px !important;
+	margin-left: 2px !important;
+	width: 0 !important
+}
+img[alt="Вставить ник"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/Name.png') !important;
+	height: 21px !important;
+	padding-right: 52px !important;
+	width: 0 !important
+}
+img[alt="Цитировать"], img[src$="insert_quote.gif"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/Quote.png') !important;
+	height: 21px !important;
+	padding-right: 92px !important;
+	margin-left: 2px !important;
+	width: 0 !important
+}
+img[alt="Редактировать"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/izm.png') !important;
+	height: 21px !important;
+	padding-right: 89px !important;
+	width: 0 !important
+}
+img[alt="Удалить"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/del.png') !important;
+	height: 21px !important;
+	padding-right: 80px !important;
+	margin-left: 2px !important;
+	width: 0 !important
+}
+img[alt="Ответить"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/Otv.png') !important;
+	height: 22px !important;
+	padding-right: 89px !important;
+	margin-left: 2px !important;
+	width: 0 !important
+}
+img[alt="Быстрый ответ"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/BO.png') !important;
+	height: 22px !important;
+	padding-right: 120px !important;
+	width: 0 !important
+}
+img[alt="Новая тема"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/nt.png') !important;
+	height: 22px !important;
+	padding-right: 117px !important;
+	width: 0 !important
+}
+img[alt="PM"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/pr1.png') !important;
+	height: 21px !important;
+	padding-right: 57px !important;
+	width: 0 !important
+}
+img[src$="4J7Q6gK6ZIAHrjR9kDOQz2DiUz2nsOVnSW6QXWrmSwbrI.gif"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/t_closed.png') !important;
+	height: 23px !important;
+	padding-right: 98px !important;
+	margin-left: 2px !important;
+    width: 0 !important
+}
+.formbuttonrow img[alt="+"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/frp_up.png') !important;
+	height: 19px !important;
+    padding-right: 19px !important;
+    width: 0 !important;
+}
+.formbuttonrow img[alt="-"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/frp_down.png') !important;
+    height: 19px !important;
+    padding-right: 19px !important;
+    width: 0 !important;
+}
+.postdetails img[alt="+"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/plus.png') !important;
+	height: 10px !important;
+    padding-right: 10px !important;
+    width: 0 !important;
+}
+.postdetails img[alt="-"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/minus.png') !important;
+    height: 10px !important;
+    padding-right: 10px !important;
+    width: 0 !important;
+}
+.postdetails img[alt="*"], #pp-iframe-wrap img[alt="*"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/pp.png') !important;
+    height: 10px !important;
+    padding-right: 11px !important;
+    width: 0 !important;
+}
+.postdetails img[alt="-----"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/q3.png') !important;
+    height: 10px !important;
+    padding-right: 50px !important;
+    width: 0 !important;
+}
+img[style="padding-bottom:2px"] {
+    padding-right: 9px !important;
+    width: 0 !important;
+}
+img[src$="post_snapback.gif"], a[title="Перейти к сообщению"] img {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/snapback.png') !important;
+	height: 10px !important;
+	padding-right: 10px !important;
+    margin-bottom: 1px !important;
+	width: 0
+}
+img[alt=">N"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/unread%20mess.png') !important;
+    height: 10px !important;
+    padding-right: 10px !important;
+    width: 0 !important;
+}
+img[alt="@"] {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/attach.png') !important;
+    background-repeat: no-repeat !important;
+	height: 10px !important;
+	padding-right: 15px !important;
+	width: 0 !important
+}
+img[alt="Показать объявления"],a[href$="0);"] img {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/show.png') !important;
+	height: 10px !important;
+	padding-right: 10px !important;
+	width: 0 !important
+}
+img[alt="Скрыть объявления"],a[href$="1);"] img {
+	background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/hide.png') !important;
+	height: 10px !important;
+	padding-right: 10px !important;
+	width: 0 !important
+}
+a[title="К последнему сообщению"] img {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/to%20last%20message.png') !important;
+    height: 10px !important;
+    padding-right: 10px !important;
+    width: 0 !important;
+}                                
+#ipbwrapper .gobutton, #ipb-tl-search_menu .button {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/search.png') !important;
+    background-color: transparent !important;
+    border: none !important;
+    background-repeat: no-repeat !important;
+    height: 16px !important;
+    padding-right: 16px !important;
+    width: 0 !important;
+    margin-top: 5px !important;
+}
+#ipbwrapper .gobutton:focus, #ipb-tl-search_menu .button:focus {
+    outline-width: 0px !important;
+}
+#ips-attach-menu img, #ips-attach-menu0 img, #ips-attach-menu1 img, #ips-attach-menu2 img, #ips-attach-menu3 img {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/ips-attach-menu%20.png') !important;
+	height: 16px !important;
+	padding-right: 16px !important;
+	width: 0 !important
+}
+img[title="Открыть меню"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/open%20menu.png') !important;
+    height: 5px !important;
+    padding-right: 7px !important;
+    width: 0 !important
+}
+.popupmenu-item > img, .popupmenu-item-last img, #navstrip img[alt$=">"], img[src$="menu_item.gif"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_Style_Sunsie/master/Images/menu.png') !important;
+    height: 9px !important;
+    padding-right: 9px !important;
+    width: 0 !important
+}
+form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(1), form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(2), form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(3) {
+    background-image: none !important;
+    background: #f9ca55 !important;
+}
+form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(1) {
+    height: 11px !important;
+	padding-right: 4px !important;
+	width: 0 !important;
+    border-radius: 2px 0 0 2px !important                                       
+}
+form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(2) {
+    height: 0px !important;
+	padding-top:11px !important;
+}
+form[action$="poll=1"] table[cellpadding="4"] td img:nth-child(3) {
+    height: 11px !important;
+	padding-right: 4px !important;
+	width: 0 !important;
+    border-radius: 0 2px 2px 0 !important
+}
+
+/* BBCodes */
+img[alt="Жирный"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/bold.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Курсив"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/i.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Подчёркивание"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/u.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Зачёркивание"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/s.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Подстрочный текст"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/sub.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Надстрочный текст"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/sup.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Влево"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/left.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="По центру"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/center.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Вправо"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/right.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Вставить гиперссылку"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/url.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Вставить цитату"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/quote.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Оффтоп"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/offtop.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Вставить код"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/code.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Сделать текст сворачиваемым"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/spoiler.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Сделать текст сворачиваемым и добавить заголовок"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/spoil.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Скрытый текст"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/hide.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Вставить список"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/list.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Вставить нумерованный список"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/numlist.png') !important;
+    height: 22px !important;
+    padding-right: 22px !important;
+    width: 0 !important;
+}
+img[alt="Удалить все BB коды"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/clear.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Помощь по ББ кодам"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/bb_help.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Уменьшить форму ответа"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/area_minus.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+img[alt="Увеличить форму ответа"] {
+    background-image: url('https://raw.githubusercontent.com/LEKS2FAST/4PDA_WhiteGrey/master/Images/BB%20Black/area_plus.png') !important;
+    height: 22px !important;
+    padding-right: 20px !important;
+    width: 0 !important;
+}
+}
